@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --primary-color: #D1345B;
+    --secondary-color: #F5F5F5;
+    --cyan-color: #34D1BF;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #070707;
+}
+.topbar{
+    background-color: #D1345B;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px 3rem;
+}
+.topbar > .socials{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.topbar > .socials > a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: medium;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-self: center;
+}
+.topbar > .socials > a > span{
+    width: 100%;
+}
+.topbar > .support{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 10px;
+}
+.support > a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+header{
+    background: url('../assets/background_header.svg') no-repeat;
+    background-position: top;
+    background-color: black;
+    background-size: cover;
+    width: 100%;
+    height: 43rem;
+    position: relative;
+}
+.btn-primary{
+    background-color: var(--primary-color) !important;
+    border-color: var(--primary-color) !important;
+}
+.btn-secondary{
+    background-color: transparent !important;
+    border-color: var(--primary-color) !important;
+}
+.btn-primary:hover{
+    background-color: #B82E4D !important;
+}
+.btn-secondary:hover{
+    background-color: var(--primary-color) !important;
+    color: white !important;
+}
+.navbar-collapse{
+    justify-content: center;
+}
+.nav-link{
+    color: white !important;
+    font-weight: 500;
+}
+.hero > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 6rem auto;
+    width: 50%;
+    text-align: center;
+}
+.announcement{
+    background-color: rgb(80, 80, 80, 17%);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 3px 2rem;
+    gap: 10px;
+    width: fit-content;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+.announcement > span{
+    color: var(--cyan-color);
+    font-weight: bolder;
+}
+.announcement > p{
+    color: white;
+    font-weight: 500;
+    margin: 0;
+}
+.hero > .container > h1{
+    font-size: 3rem;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 1rem;
+}
+.hero > .container > h1 > span{
+    color: var(--primary-color);
+}
+.hero > .container > p{
+    font-size: 22px;
+    font-weight: bold;
+    color: var(--primary-color);
+    margin-bottom: 2rem;
+}
+.minecraft-asset{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
