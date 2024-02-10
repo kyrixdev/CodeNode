@@ -313,3 +313,51 @@ header{
     text-transform: uppercase;
     font-weight: 700;
 }
+#bundle-tab-pane .plan-item{
+    background: url('../assets/buddles_background.svg') no-repeat;
+    background-size: cover;
+}
+#dedicated-tab-pane .plan-item{
+    background: url('../assets/semidedicated_background.svg') no-repeat;
+    background-size: cover;
+}
+world-map{
+    display: block;
+    position: relative;
+    max-width: 900px;
+    margin: auto;
+  }
+
+.location-item{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    background-color: black;
+    border: 1px solid var(--primary-color);
+    border-radius: 10px;
+}
+.location-item > div{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.location-item >div > img{
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+}
+.location-item > div > h5{
+    color: white;
+    font-weight: 600;
+    margin-top: 10px;
+    text-align: center;
+}
+.location-item > p{
+    color: #AFAFAF;
+    font-weight: 500;
+    margin: 0;
+    text-align: left;
+    align-self: center;
+}

@@ -1,6 +1,21 @@
 <?php
 // Path: TopBar.php
 include 'TopHeader.php';
+function pingServer($ip) {
+    $output = array();
+    $result = exec("ping -c 1 $ip", $output, $return);
+
+    if ($return == 0) {
+        preg_match('/time=([0-9\.]+) ms/', $result, $matches);
+        return isset($matches[1]) ? $matches[1] . " ms" : "N/A";
+    } else {
+        return "Ping failed";
+    }
+}
+
+// Example: Ping an IP address
+$ip = "us-dfw-1.codenode.gg"; // Change this to the IP address you want to ping
+$pingResult = pingServer($ip);
 ?>
 <section class="why-us">
     <div class="container">
@@ -43,7 +58,7 @@ include 'TopHeader.php';
     </div>
 </section>
 
-<section class="features">
+<section class="features" id="#features">
     <div class="container my-4">
         <div class="title">
             <p>what is included ?</p>
@@ -98,7 +113,7 @@ include 'TopHeader.php';
     </div>
 </section>
 
-<section class="plans">
+<section class="plans" name='#plans'>
     <div class="container my-4">
         <div class="title">
             <p>Choose your plan</p>
@@ -257,9 +272,67 @@ include 'TopHeader.php';
                 </div>
             </div>
         </div>
-        <div class="tab-pane fade" id="dedicated-tab-pane" role="tabpanel" aria-labelledby="dedicated-tab" tabindex="0">semi dedicated</div>
+        <div class="tab-pane fade" id="dedicated-tab-pane" role="tabpanel" aria-labelledby="dedicated-tab" tabindex="0">
+            <div class="col-lg-6 mx-auto">
+                        <div class="plan-item">
+                            <div class="plan-item-header">
+                                <h4>Village</h4>
+                                <p>Optimized for running a network with many game modes</p>
+                            </div>
+                            <div class="plan-item-body">
+                                <p><i data-lucide="cpu"></i>4 CPU Core (Shared)</p>
+                                <p><i data-lucide="memory-stick"></i>60 gb RAM</p>
+                                <p><i data-lucide="database"></i>480 gb Storage</p>
+                                <p><i data-lucide="split"></i>10 Server Splits</p>
+                            </div>
+                            <div class="plan-item-footer">
+                                <h3>$ 143.99/<span>Monthly</span></h3>
+                                <a href="#" class="btn btn-primary">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
         </div>
+        </div>
+</section>
+<section class="locations" id="#locations">
+    <div class="container">
+        <div class="title">
+            <p>Choose your location</p>
+            <h2>Our Minecraft Server Hosting Locations</h2>
+        </div>
+        <div class="row justify-content-center my-5">
+            <div class="col-lg-6">
+                <div class="col-lg-10 my-2">
+                    <div class="location-item col-lg-12">
+                        <div class="p-4">
+                            <img src="./assets/united_state_flag.webp" alt="" class="">
+                            <h5>Dallas, USA</h5>
+                        </div>
+                        <p class="col-lg-6">Our servers are located in the heart of the United States, providing the best latency for North American players
+                        <button onclick="pingServer()">Ping</button>
 
+<p id="result"><?php echo $pingResult; ?></p> 
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-10 my-2  ">
+                    <div class="location-item col-lg-12">
+                        <div class="p-4">
+                            <img src="./assets/europe_flag.png" alt="" class="">
+                            <h5>Netherland, EU</h5>
+                        </div>
+                        <p class="col-lg-6">Our servers are located in the heart of the United States, providing the best latency for North American players</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+            <world-map class="map">
+                <world-map-location top="28%" left="47%" label="england"></world-map-location>
+                <world-map-location top="33%" left="48.5%" label="france"></world-map-location>
+            </world-map>
+            </div>
+        </div>
+    </div>
 </section>
 <?php
 // Path: footer.php
