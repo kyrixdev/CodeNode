@@ -96,7 +96,7 @@
                 </div>
                 <h1>Minecraft Server <span>Hosting</span></h1>
                 <p class="mb-2">Easy Hosting, Powerful Performance</p>
-                <a href="#" class="btn btn-primary mx-auto px-4 py-2 fs-4 fw-bold">Get Started</a>
+                <a href="#" class="btn btn-primary mx-auto px-5 py-2 fs-4 fw-bold">Get Started</a>
             </div>
         </div>
         <div class="minecraft-asset">
