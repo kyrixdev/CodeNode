@@ -43,7 +43,7 @@ include 'TopHeader.php';
     </div>
 </section>
 
-<section class="features" id="#features">
+<section class="features" id="features">
     <div class="container my-4">
         <div class="title">
             <p>what is included ?</p>
@@ -98,7 +98,7 @@ include 'TopHeader.php';
     </div>
 </section>
 
-<section class="plans" name='#plans'>
+<section class="plans" id='plans'>
     <div class="container my-4">
         <div class="title">
             <p>Choose your plan</p>
@@ -279,7 +279,7 @@ include 'TopHeader.php';
         </div>
         </div>
 </section>
-<section class="locations" id="#locations">
+<section class="locations" id="locations">
     <div class="container">
         <div class="location-title">
             <p>Choose your location</p>

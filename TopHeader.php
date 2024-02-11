@@ -63,7 +63,7 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" aria-current="page" href="index.php">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#features">Features</a>
@@ -72,10 +72,10 @@
                             <a class="nav-link" href="#plans">Services</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
+                            <a class="nav-link" href="#locations">Locations</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
+                            <a class="nav-link" href="#">About</a>
                         </li>
                     </ul>
                 </div>
@@ -90,6 +90,33 @@
                     </a>
             </div>
         </nav>
+        <div class="navbar m-navbar">
+            <div class="container nav-container p-0">
+                <div class="logo">
+                    <img src="./assets/CodeNode_Logo.svg" alt="Logo TTG" />
+                </div>
+                <input class="checkbox" type="checkbox" name="" id="navToggle" />
+                <div class="hamburger-lines">
+                    <span class="line line1"></span>
+                    <span class="line line2"></span>
+                    <span class="line line3"></span>
+                </div>
+                <div class="menu-items" id="dropDownMenu">
+                    <li><a class="menu-item" href="#">
+                            Home</a>
+                    </li>
+                    <li><a class="menu-item" href="#features">
+                    Features</a></li>
+                    <li><a class="menu-item" href="#plans">
+                    Services</a></li>
+                    <li><a class="menu-item" href="#locations">
+                    Locations</a></li>
+                    <li><a class="menu-item" href="#">
+                    About Us</a></li>
+                </div>
+
+            </div>
+        </div>
         <div class="hero">
             <div class="container">
                 <div class="announcement">

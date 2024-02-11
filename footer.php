@@ -1,10 +1,17 @@
 <div class="container">
-  <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
+  <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5">
     <div class="col mb-3">
-      <a href="/" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
-        <img src="./assets/CodeNode_Logo.svg" alt="CodeNode Logo">
-    </a>
-      <p class="text-body-secondary">© 2023</p>
+      <a href="/" class="">
+        <img src="./assets/CodeNode_Logo.svg" alt="CodeNode Logo" class="w-100">
+      </a>
+      <div class="socials d-flex flex-row justify-content-center">
+        <a href="#" class="text-body-secondary me-2">
+          <img src="./assets/faSquareXTwitter.svg" alt="Twitter">
+        </a>
+        <a href="#" class="text-body-secondary me-2">
+          <img src="./assets/faDiscord.svg" alt="Twitter">
+        </a>
+      </div>
     </div>
 
     <div class="col mb-3">
@@ -12,38 +19,38 @@
     </div>
 
     <div class="col mb-3">
-      <h5>Section</h5>
+      <h5>Support</h5>
       <ul class="nav flex-column">
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Knowledgebase</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Server Status</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Live Chat</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Client Area</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Game Panel</a></li>
       </ul>
     </div>
 
     <div class="col mb-3">
-      <h5>Section</h5>
+      <h5>Company</h5>
       <ul class="nav flex-column">
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Terms of Service</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Privacy Policy</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About Us</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Partners</a></li>
       </ul>
     </div>
 
     <div class="col mb-3">
-      <h5>Section</h5>
+      <h5>Services</h5>
       <ul class="nav flex-column">
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Minecraft Hosting</a></li>
       </ul>
     </div>
+    
   </footer>
+  <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+      <p class="text-light">© 2024 CodeNode LLC, Albany NY. All rights reserved.</p>
+      <img src="./assets/payments.svg" alt="Payment Methods" class="">
+    </div>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
