@@ -331,7 +331,6 @@ world-map{
 .location-item{
     display: flex;
     flex-direction: row;
-    gap: 1rem;
     background-color: black;
     border: 1px solid var(--primary-color);
     border-radius: 10px;
@@ -360,4 +359,93 @@ world-map{
     margin: 0;
     text-align: left;
     align-self: center;
+}
+.location-title{
+    text-align: center;
+}
+.location-title > p{
+    color: var(--cyan-color);
+    font-weight: 600;
+    margin: 0;
+    text-transform: uppercase;
+    font-variant: small-caps;
+}
+.location-title > h2{
+    color: white;
+    font-weight: 800;
+    margin: 0;
+    text-transform: uppercase;
+}
+.locations{
+    margin: 5rem 0;
+}
+#result {
+    font-size: 24px;
+    margin-top: 20px;
+}
+#networkStateIcon {
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+}
+.ping-test {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.ping-test > div{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+.ping-test > h4{
+    color: white;
+    font-weight: 600;
+    margin: 0;
+    text-transform:capitalize;
+    font-variant: small-caps;
+}
+.ping-test > button{
+    text-transform: uppercase;
+    font-weight: 700;
+    width: fit-content;
+}
+.ping-test > .result{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+.contact-us {
+    background-color: rgba(52, 84, 209, 0.1);
+    padding: 3rem;
+}
+.contact-us-item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 10px;
+    padding: 1rem;
+}
+.contact-us-item > h2 {
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0;
+}
+.contact-us-item > h6 {
+    color: var(--cyan-color);
+    font-weight: 600;
+    margin: 0;
+}
+.contact-us-item > p {
+    color: #AFAFAF;
+    font-weight: 500;
+    margin: 0;
+}
+.contact-us-item > a {
+    font-weight: 600;
+    text-decoration: none;
+    width: fit-content;
 }

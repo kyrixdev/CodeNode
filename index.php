@@ -1,21 +1,6 @@
 <?php
 // Path: TopBar.php
 include 'TopHeader.php';
-function pingServer($ip) {
-    $output = array();
-    $result = exec("ping -c 1 $ip", $output, $return);
-
-    if ($return == 0) {
-        preg_match('/time=([0-9\.]+) ms/', $result, $matches);
-        return isset($matches[1]) ? $matches[1] . " ms" : "N/A";
-    } else {
-        return "Ping failed";
-    }
-}
-
-// Example: Ping an IP address
-$ip = "us-dfw-1.codenode.gg"; // Change this to the IP address you want to ping
-$pingResult = pingServer($ip);
 ?>
 <section class="why-us">
     <div class="container">
@@ -296,28 +281,29 @@ $pingResult = pingServer($ip);
 </section>
 <section class="locations" id="#locations">
     <div class="container">
-        <div class="title">
+        <div class="location-title">
             <p>Choose your location</p>
             <h2>Our Minecraft Server Hosting Locations</h2>
+            <button class="btn btn-primary mt-2" onclick="startPingTests()">Start Ping Tests</button>
+            <div class="d-flex flex-row justify-content-center gap-3 mt-2">
+                <div class="result" id="Location1"></div>
+                <div class="result" id="Location2"></div>
+            </div>
         </div>
         <div class="row justify-content-center my-5">
-            <div class="col-lg-6">
+            <div class="col-lg-5">
                 <div class="col-lg-10 my-2">
                     <div class="location-item col-lg-12">
-                        <div class="p-4">
+                        <div class="col-lg-6 p-4">
                             <img src="./assets/united_state_flag.webp" alt="" class="">
                             <h5>Dallas, USA</h5>
                         </div>
-                        <p class="col-lg-6">Our servers are located in the heart of the United States, providing the best latency for North American players
-                        <button onclick="pingServer()">Ping</button>
-
-<p id="result"><?php echo $pingResult; ?></p> 
-                        </p>
+                        <p class="col-lg-6">Our servers are located in the heart of the United States, providing the best latency for North American players</p>
                     </div>
                 </div>
                 <div class="col-lg-10 my-2  ">
                     <div class="location-item col-lg-12">
-                        <div class="p-4">
+                        <div class="col-lg-6 p-4">
                             <img src="./assets/europe_flag.png" alt="" class="">
                             <h5>Netherland, EU</h5>
                         </div>
@@ -325,11 +311,32 @@ $pingResult = pingServer($ip);
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-7">
             <world-map class="map">
-                <world-map-location top="28%" left="47%" label="england"></world-map-location>
-                <world-map-location top="33%" left="48.5%" label="france"></world-map-location>
+                <world-map-location top="41%" left="22%" label="Dallas, US"></world-map-location>
+                <world-map-location top="31%" left="47.5%" label="Netherland, EU"></world-map-location>
             </world-map>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="contact-us">
+    <div class="container-fluid">
+        <div class="row container mx-auto">
+            <div class="col-lg-6">
+                <div class="contact-us-item">
+                    <h6>Need Help?</h6>
+                    <h2>RESPONSIVE SUPPORT TEAM</h2>
+                    <p>Best in class 24/7/365 support. We're ready to take care of any of your server hosting issues at any time - just get in touch using our LiveChat!</p>
+                    <a href="#" class="btn btn-primary">SUPPORT CENTER</a>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="contact-us-item-l">
+                    
+                    <p>We respond to your tickets in 30 Mins or less 98.8% of the time.</p>
+                </div>
+                
             </div>
         </div>
     </div>

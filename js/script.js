@@ -53,7 +53,7 @@ class WorldMapLocation extends HTMLElement {
         z-index:1;
         display: inline-block;
         position:absolute;
-        background: #fff;
+        background: #D1345B;
         border-radius: 50%;
         width: 10px;
         height: 10px;
@@ -199,16 +199,50 @@ customElements.define('world-map', WorldMap);
 customElements.define('world-map-location', WorldMapLocation);
 
 
-function pingServer() {
-    var startTime = new Date().getTime();
-    var xhr = new XMLHttpRequest();
-    xhr.onreadystatechange = function() {
-        if (xhr.readyState === XMLHttpRequest.DONE) {
-            var endTime = new Date().getTime();
-            var responseTime = endTime - startTime;
-            document.getElementById("result").innerHTML = "Ping response time: " + responseTime + " ms";
-        }
-    };
-    xhr.open("GET", "nl-ams-1.codenode.gg", true);
-    xhr.send();
+function pingServer(location, hostname) {
+  var startTime = new Date().getTime();
+  var xhr = new XMLHttpRequest();
+  xhr.onreadystatechange = function() {
+      if (xhr.readyState === XMLHttpRequest.DONE) {
+          var endTime = new Date().getTime();
+          var responseTime = endTime - startTime;
+          var resultElement = document.getElementById(location);
+          if (hostname == "us-dfw-1.codenode.gg") {
+              hostname = "US - Dallas";
+          }
+          if (hostname == "nl-ams-1.codenode.gg") {
+              hostname = "NL - Amsterdam";
+          }
+          resultElement.innerHTML = "Ping to " + hostname + ": " + responseTime + " ms";
+          updateNetworkStateIcon(responseTime);
+      }
+  };
+  xhr.open("GET", "http://" + hostname, true);
+  xhr.send();
+}
+
+function startPingTests() {
+  pingServer("Location1", "us-dfw-1.codenode.gg"); // Change hostname for each location
+  pingServer("Location2", "nl-ams-1.codenode.gg");
+  // Add more locations and hostnames as needed
+}
+
+function updateNetworkStateIcon(responseTime1, responseTime2) {
+  var location1Element = document.getElementById("Location1");
+  var location2Element = document.getElementById("Location2");
+
+  // Define thresholds for network state colors
+  var greenThreshold = 100; // ms
+  var orangeThreshold = 300; // ms
+
+  if (responseTime1 < greenThreshold && responseTime2 < greenThreshold) {
+      location1Element.style.color = "green";
+      location2Element.style.color = "green";
+  } else if (responseTime1 < orangeThreshold && responseTime2 < orangeThreshold) {
+      location1Element.style.color = "orange";
+      location2Element.style.color = "orange";
+  } else {
+      location1Element.style.color = "red";
+      location2Element.style.color = "red";
+  }
 }
