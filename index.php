@@ -133,7 +133,7 @@ include 'TopHeader.php';
                         </div>
                         <div class="plan-item-footer">
                             <h3>$ 9.99/<span>Monthly</span></h3>
-                            <a href="#" class="btn btn-primary">Add to cart</a>
+                            <a href="https://portal.codenode.gg/index.php?rp=/store/minecraft-servers/friends-and-family" class="btn btn-primary">Add to cart</a>
                         </div>
                     </div>
                 </div>
@@ -152,7 +152,7 @@ include 'TopHeader.php';
                         </div>
                         <div class="plan-item-footer">
                             <h3>$ 24.99/<span>Monthly</span></h3>
-                            <a href="#" class="btn btn-primary">Add to cart</a>
+                            <a href="https://portal.codenode.gg/index.php?rp=/store/minecraft-servers/mid-tier" class="btn btn-primary">Add to cart</a>
                         </div>
                     </div>
                 </div>
@@ -171,7 +171,7 @@ include 'TopHeader.php';
                         </div>
                         <div class="plan-item-footer">
                             <h3>$ 36.99/<span>Monthly</span></h3>
-                            <a href="#" class="btn btn-primary">Add to cart</a>
+                            <a href="https://portal.codenode.gg/index.php?rp=/store/minecraft-servers/big-tier" class="btn btn-primary">Add to cart</a>
                         </div>
                     </div>
                 </div>
@@ -190,11 +190,12 @@ include 'TopHeader.php';
                         </div>
                         <div class="plan-item-footer">
                             <h3>$ 59.99/<span>Monthly</span></h3>
-                            <a href="#" class="btn btn-primary">Add to cart</a>
+                            <a href="https://portal.codenode.gg/index.php?rp=/store/minecraft-servers/mega-tier" class="btn btn-primary">Add to cart</a>
                         </div>
                     </div>
                 </div>
             </div>
+            <p class="text-center text-light mt-2">Don't know what Guaranteed Players and Plugins mean? Check <a href="https://codenode-helpdesk.crisp.help/en/article/what-are-guaranteed-players-and-plugins-rmhpoo/" target="_blank">this article</a> out.</p>
         </div>
         <div class="tab-pane fade" id="bundle-tab-pane" role="tabpanel" aria-labelledby="bundle-tab" tabindex="0">*
         <div class="row">
@@ -205,74 +206,72 @@ include 'TopHeader.php';
                             <p>Great for running two different game modes to play with your close ones</p>
                         </div>
                         <div class="plan-item-body">
-                            <p><i data-lucide="cpu"></i>1 CPU Core (Shared)</p>
-                            <p><i data-lucide="memory-stick"></i>2 gb RAM</p>
-                            <p><i data-lucide="database"></i>25 gb Storage</p>
-                            <p><i data-lucide="users"></i>10 Guaranteed Player Slots</p>
-                            <p><i data-lucide="blocks"></i>8 Guaranteed Plugins Capacity</p>
+                            <p><i data-lucide="server"></i>2x Friends & Family Servers</p>
+                            <p><i data-lucide="router"></i>1x Waterfall or Velocity Proxy*</p>
+                            <p><i data-lucide="network"></i>Includes Dedicated IP</p>
                         </div>
                         <div class="plan-item-footer">
-                            <h3>$ 9.99/<span>Monthly</span></h3>
-                            <a href="#" class="btn btn-primary">Add to cart</a>
+                            <h3>$ 18.99/<span>Monthly</span></h3>
+                            <a href="https://portal.codenode.gg/cart.php?a=add&bid=1" class="btn btn-primary">Add to cart</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="plan-item">
                         <div class="plan-item-header">
-                            <h4>ULTRA BUNDLE</h4>
+                            <h4>BIG BUNDLE</h4>
                             <p>Ideal if you need a Hub** server before joining the Main server</p>
                         </div>
                         <div class="plan-item-body">
-                            <p><i data-lucide="cpu"></i>2 CPU Core (Shared)</p>
-                            <p><i data-lucide="memory-stick"></i>10 gb RAM</p>
-                            <p><i data-lucide="database"></i>50 gb Storage</p>
-                            <p><i data-lucide="users"></i>30 Guaranteed Player Slots</p>
-                            <p><i data-lucide="blocks"></i>25 Guaranteed Plugins Capacity</p>
+                            <p><i data-lucide="server"></i>1x Mid Tier Server</p>
+                            <p><i data-lucide="server"></i>1x Big Tier Server</p>
+                            <p><i data-lucide="router"></i>1x Waterfall or Velocity Proxy*</p>
+                            <p><i data-lucide="network"></i>Includes Dedicated IP</p>
                         </div>
                         <div class="plan-item-footer">
-                            <h3>$ 24.99/<span>Monthly</span></h3>
-                            <a href="#" class="btn btn-primary">Add to cart</a>
+                            <h3>$ 59.99/<span>Monthly</span></h3>
+                            <a href="https://portal.codenode.gg/cart.php?a=add&bid=4" class="btn btn-primary">Add to cart</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="plan-item">
                         <div class="plan-item-header">
-                            <h4>network bundle</h4>
+                            <h4>NETWORK BUNDLE</h4>
                             <p>Designed for medium or big communities with plugin-rich experiences in mind</p>
                         </div>
                         <div class="plan-item-body">
-                            <p><i data-lucide="cpu"></i>2 CPU Core (Shared)</p>
-                            <p><i data-lucide="memory-stick"></i>16 gb RAM</p>
-                            <p><i data-lucide="database"></i>Unmetered Storage</p>
-                            <p><i data-lucide="users"></i>50 Guaranteed Player Slots</p>
-                            <p><i data-lucide="blocks"></i>50 Guaranteed Plugins Capacity</p>
+                            <p><i data-lucide="server"></i>2x Mid Tier Server Serverr</p>
+                            <p><i data-lucide="server"></i>2x Big Tier Server Server</p>
+                            <p><i data-lucide="router"></i>1x Waterfall or Velocity Proxy*</p>
+                            <p><i data-lucide="network"></i>Includes Dedicated IP</p>
                         </div>
                         <div class="plan-item-footer">
-                            <h3>$ 36.99/<span>Monthly</span></h3>
-                            <a href="#" class="btn btn-primary">Add to cart</a>
+                            <h3>$ 120.99/<span>Monthly</span></h3>
+                            <a href="https://portal.codenode.gg/cart.php?a=add&bid=3" class="btn btn-primary">Add to cart</a>
                         </div>
                     </div>
                 </div>
             </div>
+            <p class="text-center text-light mt-2">Don't know what Guaranteed Players and Plugins mean? Check <a href="https://codenode-helpdesk.crisp.help/en/article/what-are-guaranteed-players-and-plugins-rmhpoo/" target="_blank">this article</a> out.</p>
+            <span class="span-notes">* Proxy Setup is included. Open a support ticket and CodeNode staff will link the two servers with a simple /server command, completely free of charge.</span>
         </div>
         <div class="tab-pane fade" id="dedicated-tab-pane" role="tabpanel" aria-labelledby="dedicated-tab" tabindex="0">
             <div class="col-lg-6 mx-auto">
                         <div class="plan-item">
                             <div class="plan-item-header">
                                 <h4>Village</h4>
-                                <p>Optimized for running a network with many game modes</p>
+                                <p>Optimized for running a network with many game modes <br> Create up to 8 servers with your own dedicated resources.</p>
                             </div>
                             <div class="plan-item-body">
-                                <p><i data-lucide="cpu"></i>4 CPU Core (Shared)</p>
-                                <p><i data-lucide="memory-stick"></i>60 gb RAM</p>
-                                <p><i data-lucide="database"></i>480 gb Storage</p>
-                                <p><i data-lucide="split"></i>10 Server Splits</p>
+                                <p><i data-lucide="cpu"></i>4 Cores @ 4.0+ GHz</p>
+                                <p><i data-lucide="memory-stick"></i>60 GB DDR4 @ 2666 MHz</p>
+                                <p><i data-lucide="database"></i>500GB SSD Storage</p>
+                                <p><i data-lucide="network"></i>8 Dedicated IP</p>
                             </div>
                             <div class="plan-item-footer">
                                 <h3>$ 143.99/<span>Monthly</span></h3>
-                                <a href="#" class="btn btn-primary">Add to cart</a>
+                                <a href="https://portal.codenode.gg/index.php?rp=/store/dedicated-node-hosting/villager-node" class="btn btn-primary">Add to cart</a>
                             </div>
                         </div>
                     </div>

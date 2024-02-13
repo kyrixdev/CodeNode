@@ -649,3 +649,14 @@ footer .nav-link{
         margin: 1rem 0;
       }
 }
+.span-notes{
+    color: #AFAFAF;
+    font-weight: 500;
+    font-size: 14px;
+    margin: 0;
+}
+
+.plans p > a{
+    color: var(--primary-color);
+    margin-top: 1rem;
+}

@@ -8,8 +8,8 @@
         <a href="#" class="text-body-secondary me-2">
           <img src="./assets/faSquareXTwitter.svg" alt="Twitter">
         </a>
-        <a href="#" class="text-body-secondary me-2">
-          <img src="./assets/faDiscord.svg" alt="Twitter">
+        <a href="https://discord.gg/23ySdM2Dn8" class="text-body-secondary me-2">
+          <img src="./assets/faDiscord.svg" alt="Discord">
         </a>
       </div>
     </div>
@@ -21,10 +21,10 @@
     <div class="col mb-3">
       <h5>Support</h5>
       <ul class="nav flex-column">
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Knowledgebase</a></li>
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Server Status</a></li>
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Live Chat</a></li>
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Client Area</a></li>
+        <li class="nav-item mb-2"><a href="https://kb.codenode.gg/en/" class="nav-link p-0 text-body-secondary">Knowledgebase</a></li>
+        <li class="nav-item mb-2"><a href="https://status.codenode.gg/en/" class="nav-link p-0 text-body-secondary">Server Status</a></li>
+        <li class="nav-item mb-2"><a href="https://go.crisp.chat/chat/embed/?website_id=22b068e5-352b-4a08-aad3-e4bb97ae7ab9" class="nav-link p-0 text-body-secondary">Live Chat</a></li>
+        <li class="nav-item mb-2"><a href="https://portal.codenode.gg/clientarea.php" class="nav-link p-0 text-body-secondary">Client Area</a></li>
         <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Game Panel</a></li>
       </ul>
     </div>
@@ -34,6 +34,7 @@
       <ul class="nav flex-column">
         <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Terms of Service</a></li>
         <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Privacy Policy</a></li>
+        <li class="nav-item mb-2"><a href="https://www.minecraft.net/en-us/eula" class="nav-link p-0 text-body-secondary">Minecraft EULA</a></li>
         <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About Us</a></li>
         <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Partners</a></li>
       </ul>
