@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Legal | Easy Hosting, Powerful Performance</title>
+    <title>Terms | Easy Hosting, Powerful Performance</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/main.css">
     <script src="./js/script.js"></script>
@@ -13,15 +13,10 @@
     <link rel="canonical" href="https://www.example.com/preferred-page">
     <meta name="robots" content="index, follow">
     <!-- Open Graph Tags -->
-    <meta property="og:title" content="Your Open Graph Title">
-    <meta property="og:description" content="Your Open Graph Description">
-    <meta property="og:image" content="https://www.example.com/image.jpg">
-    <meta property="og:url" content="https://www.example.com/page-url">
-    <!-- Twitter Card Tags -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Your Twitter Title">
-    <meta name="twitter:description" content="Your Twitter Description">
-    <meta name="twitter:image" content="https://www.example.com/image.jpg">
+    <meta property="og:title" content="Terms | CodeNode Hosting">
+    <meta property="og:description" content="Terms | CodeNode Hosting">
+    <meta property="og:image" content="./assets/favicon-192.png">
+    <meta property="og:url" content="https://codenode.gg/terms">
     <!-- Favicon -->
     <link rel="icon" href="./assets/favicon.ico" type="image/x-icon">
     <link rel="icon" type="image/png" sizes="196x196" href="./assets/favicon-192.png">

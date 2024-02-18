@@ -202,12 +202,6 @@ header{
 .features .row{
     flex-wrap: nowrap;
 }
-@media screen and (max-width: 768px){
-   .features .row{
-       flex-wrap: wrap;
-   }
-}
-
 .plans{
     margin-top: 5rem;
 }
@@ -785,4 +779,27 @@ footer .nav-link{
     padding: 2rem;
     border-radius: 10px;
     border: 1px solid var(--primary-color);
+}
+@media screen and (max-width: 768px){
+    .features .row{
+        flex-wrap: wrap;
+    }
+    .legals{
+     flex-direction: column;
+     padding: 2rem;
+    }
+    .hero > .container > h1{
+        font-size: unset;
+    }
+    .legals .sidebar{
+        width: 100%;
+    }
+    .legals .tab-content{
+        width: 100%;
+    }
+ }
+@media screen and (max-width: 320px) {
+    header .logo img{
+        width: 80%;
+    }
 }
