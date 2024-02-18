@@ -58,7 +58,7 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="index.php">Home</a>
+                            <a class="nav-link active" aria-current="page" href="index">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#features">Features</a>
@@ -70,7 +70,7 @@
                             <a class="nav-link" href="#locations">Locations</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="about.php">About</a>
+                            <a class="nav-link" href="about">About</a>
                         </li>
                     </ul>
                 </div>
@@ -106,7 +106,7 @@
                     Services</a></li>
                     <li><a class="menu-item" href="#locations">
                     Locations</a></li>
-                    <li><a class="menu-item" href="#">
+                    <li><a class="menu-item" href="about">
                     About Us</a></li>
                 </div>
 

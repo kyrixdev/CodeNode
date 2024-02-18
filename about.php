@@ -63,19 +63,19 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="index.php">Home</a>
+                            <a class="nav-link active" aria-current="page" href="index">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="index.php#features">Features</a>
+                            <a class="nav-link" href="index#features">Features</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="index.php#plans">Services</a>
+                            <a class="nav-link" href="index#plans">Services</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="index.php#locations">Locations</a>
+                            <a class="nav-link" href="index#locations">Locations</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="about.php">About</a>
+                            <a class="nav-link" href="about">About</a>
                         </li>
                     </ul>
                 </div>
@@ -105,13 +105,13 @@
                     <li><a class="menu-item" href="index.php">
                             Home</a>
                     </li>
-                    <li><a class="menu-item" href="index.php#features">
+                    <li><a class="menu-item" href="index#features">
                     Features</a></li>
-                    <li><a class="menu-item" href="index.php#plans">
+                    <li><a class="menu-item" href="index#plans">
                     Services</a></li>
-                    <li><a class="menu-item" href="index.php#locations">
+                    <li><a class="menu-item" href="index#locations">
                     Locations</a></li>
-                    <li><a class="menu-item" href="about.php">
+                    <li><a class="menu-item" href="about">
                     About Us</a></li>
                 </div>
 
