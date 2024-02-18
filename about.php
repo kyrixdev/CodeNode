@@ -66,13 +66,13 @@
                             <a class="nav-link active" aria-current="page" href="index.php">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#features">Features</a>
+                            <a class="nav-link" href="index.php#features">Features</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#plans">Services</a>
+                            <a class="nav-link" href="index.php#plans">Services</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#locations">Locations</a>
+                            <a class="nav-link" href="index.php#locations">Locations</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="about.php">About</a>
@@ -102,16 +102,16 @@
                     <span class="line line3"></span>
                 </div>
                 <div class="menu-items" id="dropDownMenu">
-                    <li><a class="menu-item" href="#">
+                    <li><a class="menu-item" href="index.php">
                             Home</a>
                     </li>
-                    <li><a class="menu-item" href="#features">
+                    <li><a class="menu-item" href="index.php#features">
                     Features</a></li>
-                    <li><a class="menu-item" href="#plans">
+                    <li><a class="menu-item" href="index.php#plans">
                     Services</a></li>
-                    <li><a class="menu-item" href="#locations">
+                    <li><a class="menu-item" href="index.php#locations">
                     Locations</a></li>
-                    <li><a class="menu-item" href="#">
+                    <li><a class="menu-item" href="about.php">
                     About Us</a></li>
                 </div>
 
