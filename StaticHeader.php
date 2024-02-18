@@ -117,18 +117,4 @@
 
             </div>
         </div>
-        <div class="hero">
-            <div class="container">
-                <div class="announcement">
-                    <span>NEW</span>
-                    <p>Get 50% off your first month with code <strong>CODE50</strong></p>
-                </div>
-                <h1>Minecraft Server <span>Hosting</span></h1>
-                <p class="mb-2">Easy Hosting, Powerful Performance</p>
-                <a href="#" class="btn btn-primary mx-auto px-5 py-2 fs-4 fw-bold">Get Started</a>
-            </div>
-        </div>
-        <div class="minecraft-asset">
-            <img src="./assets/Minecraft_illustration.svg" alt="Minecraft Asset">
-        </div>
     </header>

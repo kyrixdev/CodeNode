@@ -13,6 +13,7 @@
 body{
     font-family: 'Montserrat', sans-serif;
     background-color: #070707;
+    scroll-behavior: smooth;
 }
 .topbar{
     background-color: #D1345B;
@@ -658,5 +659,96 @@ footer .nav-link{
 
 .plans p > a{
     color: var(--primary-color);
-    margin-top: 1rem;
+}
+.aboutus{
+    padding: 1rem;
+}
+.aboutus img{
+    width: 50px;
+    margin: 0 auto;
+}
+.aboutus h1{
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0;
+}
+.about-us{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    background: var(--primary-color);
+    padding: 1rem 2rem;
+    margin-top: -6rem;
+}
+.about-us p{
+    color: white;
+    font-weight: 500;
+    margin: 0;
+}
+.about-us h2{
+    color: white;
+    font-weight: 800;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+.our-mission{
+    padding: 3rem;
+}
+.our-mission h2{
+    color: white;
+    font-weight: 800;
+    margin: 0;
+    text-transform: uppercase;
+}
+.our-mission p{
+    color: #AFAFAF;
+    font-weight: 500;
+    margin: 0;
+}
+.our-mission h4{
+    color: white;
+    font-weight: 600;
+    margin: 0;
+}
+.our-mission svg{
+    fill: var(--primary-color);
+    font-weight: 600;
+}
+.team .card{
+    background: rgba(52, 84, 209, 0.1);
+    border: 1px solid var(--primary-color);
+    color: white;
+}
+.team .btn-outline-primary{
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+.team .btn-outline-primary:hover{
+    background-color: var(--primary-color);
+    color: white;
+}
+.team  small{
+    color: #64748b;
+}
+.w-fit{
+    width: fit-content;
+}
+.hiring-card{
+    background: linear-gradient(126deg, rgba(129,16,44,1) 0%, rgba(209,52,91,1) 36%, rgba(209,52,91,1) 100%);
+    border: 1px solid var(--primary-color);
+    color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    width: fit-content;
+    margin: 0 auto;
+}
+.hiring-card small{
+    color: white;
+}
+.hiring-card .btn-primary{
+    background-color:  #662b2b !important;
+    border-color: var(--primary-color);
 }
