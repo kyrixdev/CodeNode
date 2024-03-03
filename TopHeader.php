@@ -52,7 +52,7 @@
 
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="/">
                     <img src="./assets/CodeNode_Logo.svg" alt="CodeNode Logo">
                 </a>
                 <div class="collapse navbar-collapse" id="navbarNav">
@@ -120,7 +120,7 @@
                 </div>
                 <h1>Minecraft Server <span>Hosting</span></h1>
                 <p class="mb-2">Easy Hosting, Powerful Performance</p>
-                <a href="#" class="btn btn-primary mx-auto px-5 py-2 fs-4 fw-bold">Get Started</a>
+                <a href="#plans" class="btn btn-primary mx-auto px-5 py-2 fs-4 fw-bold">Get Started</a>
             </div>
         </div>
         <div class="minecraft-asset">

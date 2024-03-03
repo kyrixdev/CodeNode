@@ -39,9 +39,9 @@
                     <i data-lucide="help-circle"></i>
                     Billing & Support
                 </a>
-                <a class="mail" href="mailto:help@codenode.gg">
+                <a class="mail" href="mailto:Sales@codenode.gg">
                     <i data-lucide="mail"></i>
-                    help@codenode.gg
+                    Sales@codenode.gg
                 </a>
                 <a class="status" href="https://status.codenode.gg/en/">
                     <i data-lucide="radio"></i>
@@ -52,7 +52,7 @@
 
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="/">
                     <img src="./assets/CodeNode_Logo.svg" alt="CodeNode Logo">
                 </a>
                 <div class="collapse navbar-collapse" id="navbarNav">
