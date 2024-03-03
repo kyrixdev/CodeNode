@@ -483,6 +483,13 @@ footer .nav-link{
 .m-navbar{
     display: none;
 }
+.disabled{
+    pointer-events: none;
+    cursor: not-allowed;
+    background-color: #6c757d;
+    border-color: #6c757d;
+
+}
 @media screen and (max-width: 768px){
     .topbar{
         display: none;

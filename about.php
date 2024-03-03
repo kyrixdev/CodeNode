@@ -197,7 +197,7 @@
               <!-- Socials -->
               <ul class="list-inline mb-0">
                 <li class="list-inline-item">
-                  <a class="btn btn-outline-primary btn-xs btn-icon rounded" href="#">
+                  <a class="btn btn-outline-primary btn-xs btn-icon rounded" target="_blank" href="mailto:Antoni@codenode.gg">
                     <i data-lucide="mail"></i>
                   </a>
                 </li>
@@ -214,7 +214,7 @@
           <div class="card card-transition h-100">
             <div class="card-body">
 
-              <span class="card-subtitle">Project Manager</span>
+              <span class="card-subtitle">President Of Operations</span>
               <h4 class="card-title">Andrés Caraballo</h4>
               <p class="card-text">I am an ambitious workaholic, but apart from that, pretty simple person.</p>
             </div>
@@ -223,7 +223,7 @@
               <!-- Socials -->
               <ul class="list-inline mb-0">
                 <li class="list-inline-item">
-                  <a class="btn btn-outline-primary btn-xs btn-icon rounded" href="#">
+                  <a class="btn btn-outline-primary btn-xs btn-icon rounded" target="_blank" href="mailto:Andres@codenode.gg">
                     <i data-lucide="mail"></i>
                   </a>
                 </li>
@@ -240,7 +240,7 @@
           <div class="card card-transition h-100">
             <div class="card-body">
 
-              <span class="card-subtitle">HR Manager</span>
+              <span class="card-subtitle">Vice President Of Operations</span>
               <h4 class="card-title">Matei Alexa</h4>
               <p class="card-text">I am an ambitious workaholic, but apart from that, pretty simple person.</p>
             </div>
@@ -249,7 +249,7 @@
               <!-- Socials -->
               <ul class="list-inline mb-0">
                 <li class="list-inline-item">
-                  <a class="btn btn-outline-primary btn-xs btn-icon rounded" href="#">
+                  <a class="btn btn-outline-primary btn-xs btn-icon rounded" target="_blank" href="mailto:Matei@codenode.gg">
                     <i data-lucide="mail"></i>
                   </a>
                 </li>
@@ -266,7 +266,7 @@
           <div class="card card-transition h-100">
             <div class="card-body">
 
-              <span class="card-subtitle">Web Developer</span>
+              <span class="card-subtitle">Sr. Web developer</span>
               <h4 class="card-title">Oussama Kefi</h4>
               <p class="card-text">I am an ambitious workaholic, but apart from that, pretty simple person.</p>
             </div>
@@ -275,12 +275,12 @@
               <!-- Socials -->
               <ul class="list-inline mb-0">
                 <li class="list-inline-item">
-                  <a class="btn btn-outline-primary btn-xs btn-icon rounded" href="#">
+                  <a class="btn btn-outline-primary btn-xs btn-icon rounded" target="_blank" href="https://github.com/kyrixdev">
                     <i data-lucide="github"></i>
                   </a>
                 </li>
                 <li class="list-inline-item">
-                  <a class="btn btn-outline-primary btn-xs btn-icon rounded" href="#">
+                  <a class="btn btn-outline-primary btn-xs btn-icon rounded" target="_blank" href="mailto:oussema@codenode.gg">
                     <i data-lucide="mail"></i>
                   </a>
                 </li>
@@ -300,7 +300,7 @@
           <div class="card-body text-light">
           <small class="text-uppercase ls-md fw-semibold">Careers / all open positions</small>
             <br>Want to work with us?  
-            <a class="btn btn-primary" href="./page-hire-us.html">We are hiring <span class="bi-chevron-right small ms-1"></span></a>
+            <a class="btn btn-primary disabled" href="#">We are hiring <span class="bi-chevron-right small ms-1"></span></a>
           </div>
         </div>
       </div>
