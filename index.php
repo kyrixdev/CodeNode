@@ -126,7 +126,7 @@ include 'TopHeader.php';
                         </div>
                         <div class="plan-item-body">
                             <p><i data-lucide="cpu"></i>1 CPU Core (Shared)</p>
-                            <p><i data-lucide="memory-stick"></i>2 gb RAM</p>
+                            <p><i data-lucide="memory-stick"></i>4 gb RAM</p>
                             <p><i data-lucide="database"></i>25 gb Storage</p>
                             <p><i data-lucide="users"></i>10 Guaranteed Player Slots</p>
                             <p><i data-lucide="blocks"></i>8 Guaranteed Plugins Capacity</p>
@@ -185,7 +185,7 @@ include 'TopHeader.php';
                             <p><i data-lucide="cpu"></i>2 CPU Core (Shared)</p>
                             <p><i data-lucide="memory-stick"></i>24 gb RAM</p>
                             <p><i data-lucide="database"></i>Unmetered Storage</p>
-                            <p><i data-lucide="users"></i>70 Guaranteed Player Slots</p>
+                            <p><i data-lucide="users"></i>80 Guaranteed Player Slots</p>
                             <p><i data-lucide="blocks"></i>60 Guaranteed Plugins Capacity</p>
                         </div>
                         <div class="plan-item-footer">

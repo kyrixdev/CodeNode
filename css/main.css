@@ -816,11 +816,18 @@ footer .nav-link{
 }
 .tab-content>.active {
     display: block;
-    height: 100vh;
 }
 
 embed{
-    height: 95%;
+}
+.download-btn{
+    display: flex;
+    width: fit-content;
+    gap: 10px;
+}
+.download-btn > svg{
+    width: 20px;
+    height: 20px;
 }
 .soon-product{
     background: var(--bs-cyan);
