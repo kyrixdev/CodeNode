@@ -132,12 +132,12 @@
   <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
    <h2>Terms of Service</h2>
    <embed src="./assets/legals/Terms_of_Service_-_CodeNode_LLC_PDF.pdf" type="application/pdf" width="100%" height="500px">
-   <a class="btn btn-primary download-btn" href="./assets/legals/Terms_of_Service_-_CodeNode_LLC_PDF.pdf" download><i data-lucide="download"></i> Download</a>
+   <a class="btn btn-primary download-btn" href="./assets/legals/Terms_of_Service_-_CodeNode_LLC_PDF.pdf"><i data-lucide="download"></i> Download</a>
   </div>
   <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
   <h2>Privacy Policy</h2>
    <embed src="./assets/legals/Privacy_Policy_-_CodeNode.pdf" type="application/pdf" width="100%" height="500px">
-   <a class="btn btn-primary download-btn" href="./assets/legals/Terms_of_Service_-_CodeNode_LLC_PDF.pdf" download><i data-lucide="download"></i> Download</a>
+   <a class="btn btn-primary download-btn" href="./assets/legals/Terms_of_Service_-_CodeNode_LLC_PDF.pdf"><i data-lucide="download"></i> Download</a>
   </div>
 </div>
 </section>
