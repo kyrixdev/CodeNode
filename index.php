@@ -7,10 +7,10 @@ include 'TopHeader.php';
         <div class="row">
             <div class="col-lg-6 align-self-center">
                 <h2>Why Choose CodeNode ?</h2>
-                <p class="w-80">CodeNode is a leading provider of Minecraft Server Hosting. Discover why over 9,000,000 websites trust us for their hosting needs.</p>
+                <p class="w-80">At CodeNode, our focus is on server performance and customer experience rather then profitability. We have created top of the line systems and offers for you to enjoy the utmost performance when using our products.</p>
             </div>
-            <div class="col-lg-6">
-                <div class="row">
+            <div class="col-lg-6 ">
+                <div class="row gap-m-4">
                     <div class="col-lg-6">
                         <div class="why-us-item">
                             <img src="./assets/supportIcon.svg" alt="">
@@ -24,11 +24,11 @@ include 'TopHeader.php';
                         </div>
                     </div>
                 </div>
-                <div class="row ms-4 mt-4">
+                <div class="row ms-4 mt-4 mm-0 gap-m-4">
                     <div class="col-lg-6">
                         <div class="why-us-item">
                             <img src="./assets/ddosIcon.svg" alt="">
-                            <h4>DDOS PROTACTION</h4>
+                            <h4>DDOS PROTECTION</h4>
                         </div>
                     </div>
                     <div class="col-lg-6">
@@ -47,7 +47,7 @@ include 'TopHeader.php';
     <div class="container my-4">
         <div class="title">
             <p>what is included ?</p>
-            <h2>Minecraft Servers Features</h2>
+            <h2>Important Features of our services</h2>
         </div>
         <div class="row justify-content-center my-5">
                 <div class="col-lg-4">
@@ -61,14 +61,14 @@ include 'TopHeader.php';
                 <div class="feature-item">
                     <img src="./assets/IPIconF.svg" alt="">
                     <h4>Free Dedicated IP</h4>
-                    <p>We offer a free dedicated IP with all our plans , so you can have a unique experience with us</p>
+                    <p>We offer a free dedicated IP with all our plans, so your players will be able to connect easily to your server.</p>
                 </div>
             </div>
             <div class="col-lg-4">
                 <div class="feature-item">
                     <img src="./assets/ScalabiltyIconF.svg" alt="">
                     <h4>Reliability & Scalability</h4>
-                    <p>Need more resources? We've got you and your community covered. If what you're looking for isn't currently offered, we can tailor a personalized solution just for your needs.</p>
+                    <p>Need more resources? We've got you and your community covered. If what you're looking for isn't currently offered, we can tailor a personalized solution that matches your needs.</p>
                 </div>
             </div>
         </div>
@@ -77,21 +77,21 @@ include 'TopHeader.php';
                 <div class="feature-item">
                     <img src="./assets/EasyIconF.svg" alt="">
                     <h4>Easy-To-Use Services</h4>
-                    <p>We invested heavily into our services research and development to be able to provide you with as much ease of use and peace of mind.</p>
+                    <p>We invested heavily into reasearching and developing our services to be able to provide you with ease of use and peace of mind.</p>
                 </div>
             </div>
             <div class="col-lg-4">
                 <div class="feature-item">
                     <img src="./assets/CheckIconF.svg" alt="">
                     <h4>Player & Plugin Guarantees</h4>
-                    <p>Most hosting providers will give throw you into a pool of resources and call it a day. We, on the other hand, make sure our promises are met and your server is running optimally</p>
+                    <p>Most hosting providers will give throw you into a pool of resources and call it a day. We, on the other hand, make sure our promises are met and your server is running optimally.</p>
                 </div>
             </div>
             <div class="col-lg-4">
                 <div class="feature-item">
                     <img src="./assets/DiscordIconF.svg" alt="">
                     <h4>Discord Bot Hosting</h4>
-                    <p>Your server's success is our success. and to help you manage your discord community we offer a free discord bot hosting with our plans</p>
+                    <p>Your server's success is our success. and to help you manage your discord community we offer free discord bot hosting with each of our plans.</p>
                 </div>
             </div>
         </div>
@@ -109,7 +109,7 @@ include 'TopHeader.php';
             <button class="nav-link active" id="servers-tab" data-bs-toggle="tab" data-bs-target="#servers-tab-pane" type="button" role="tab" aria-controls="servers-tab-pane" aria-selected="true">Servers</button>
         </li>
         <li class="nav-item mx-1" role="presentation">
-            <button class="nav-link" id="bundle-tab" data-bs-toggle="tab" data-bs-target="#bundle-tab-pane" type="button" role="tab" aria-controls="bundle-tab-pane" aria-selected="false">Bundels</button>
+            <button class="nav-link" id="bundle-tab" data-bs-toggle="tab" data-bs-target="#bundle-tab-pane" type="button" role="tab" aria-controls="bundle-tab-pane" aria-selected="false">Bundles</button>
         </li>
         <li class="nav-item" role="presentation">
             <button class="nav-link" id="dedicated-tab" data-bs-toggle="tab" data-bs-target="#dedicated-tab-pane" type="button" role="tab" aria-controls="dedicated-tab-pane" aria-selected="false">Semi-dedicated</button>
@@ -304,9 +304,9 @@ include 'TopHeader.php';
                     <div class="location-item col-lg-12">
                         <div class="col-lg-6 p-4">
                             <img src="./assets/europe_flag.png" alt="" class="">
-                            <h5>Netherland, EU</h5>
+                            <h5>Netherlands, EU</h5>
                         </div>
-                        <p class="col-lg-6">Our servers are located in the heart of the United States, providing the best latency for North American players</p>
+                        <p class="col-lg-6">The Netherlands location is placed strategically in order for our European clientele to enjoy great latency and fast speeds.</p>
                     </div>
                 </div>
             </div>

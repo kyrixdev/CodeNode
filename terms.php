@@ -8,13 +8,13 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/main.css">
     <script src="./js/script.js"></script>
-    <meta name="description" content="Your meta description here">
-    <meta name="keywords" content="keyword1, keyword2, keyword3">
-    <link rel="canonical" href="https://www.example.com/preferred-page">
+    <meta name="description" content="Discover top-notch Minecraft server hosting at CodeNode. Easy to set up, 24/7 support, with instant modpack and plugin install. Starting at $9.99.">
+    <meta name="keywords" content="minecraft hosting, minecraft host, minecraft server hosting, minecraft server host, free minecraft hosting, best minecraft hosting, cheap minecraft hosting, affordable minecraft hosting, game server hosting, CodeNode Hostingn, Codenode, codenode hosting">
+    <link rel="canonical" href="https://codenode.gg/">
     <meta name="robots" content="index, follow">
     <!-- Open Graph Tags -->
     <meta property="og:title" content="Terms | CodeNode Hosting">
-    <meta property="og:description" content="Terms | CodeNode Hosting">
+    <meta property="og:description" content="CodeNode provides the best Minecraft server hosting. Easy to set up, 24/7 support, with instant modpack and plugin install. Starting at $9.99.">
     <meta property="og:image" content="./assets/favicon-192.png">
     <meta property="og:url" content="https://codenode.gg/terms">
     <!-- Favicon -->

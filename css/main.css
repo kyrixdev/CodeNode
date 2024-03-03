@@ -14,6 +14,28 @@ body{
     font-family: 'Montserrat', sans-serif;
     background-color: #070707;
     scroll-behavior: smooth;
+    --card-background-color: rgba(255, 255, 255, .015);
+    --card-border-color: rgba(255, 255, 255, 0.1);
+    --card-box-shadow-1: rgba(0, 0, 0, 0.05);
+    --card-box-shadow-1-y: 3px;
+    --card-box-shadow-1-blur: 6px;
+    --card-box-shadow-2: rgba(0, 0, 0, 0.1);
+    --card-box-shadow-2-y: 8px;
+    --card-box-shadow-2-blur: 15px;
+    --card-label-color: #FFFFFF;
+    --card-icon-color: #D4D4D8;
+    --card-icon-background-color: rgba(255, 255, 255, 0.08);
+    --card-icon-border-color: rgba(255, 255, 255, 0.12);
+    --card-shine-opacity: .1;
+    --card-shine-gradient: conic-gradient(from 205deg at 50% 50%, rgba(16, 185, 129, 0) 0deg, #10B981 25deg, rgba(52, 211, 153, 0.18) 295deg, rgba(16, 185, 129, 0) 360deg);
+    --card-line-color: #2A2B2C;
+    --card-tile-color: rgba(16, 185, 129, 0.05);
+  
+    --card-hover-border-color: rgba(255, 255, 255, 0.2);
+    --card-hover-box-shadow-1: rgba(0, 0, 0, 0.04);
+    --card-hover-box-shadow-1-y: 5px;
+    --card-hover-box-shadow-1-blur: 10px;
+    --card-hover-box-shadow-2: rgba(0, 0, 0, 0.3);
 }
 .topbar{
     background-color: #D1345B;
@@ -229,7 +251,9 @@ header{
     font-weight: 600;
     text-transform: uppercase;
 }
-
+.plans .nav-link{
+    border-radius: 50px;
+}
 .plans .nav-link:hover{
     border: 0;
     border-radius: 50px;
@@ -780,6 +804,25 @@ footer .nav-link{
     border-radius: 10px;
     border: 1px solid var(--primary-color);
 }
+.plans .tab-content>.active{
+    height: auto;
+}
+.tab-content>.active {
+    display: block;
+    height: 100vh;
+}
+
+embed{
+    height: 95%;
+}
+.soon-product{
+    background: var(--bs-cyan);
+    color: #ffffff;
+    padding: 3px 8px;
+    border-radius: 50px;
+    font-size: small;
+    box-shadow: 0 0 10px 0px #0dcaf08f;
+}
 @media screen and (max-width: 768px){
     .features .row{
         flex-wrap: wrap;
@@ -788,18 +831,33 @@ footer .nav-link{
      flex-direction: column;
      padding: 2rem;
     }
-    .hero > .container > h1{
-        font-size: unset;
-    }
     .legals .sidebar{
         width: 100%;
     }
     .legals .tab-content{
         width: 100%;
     }
+    .why-us .mm-0 {
+        margin: 0 !important;
+        margin-top: 1rem !important;
+    }
+    .why-us .mm-0 > .col-lg-6{
+        padding: 0 !important;
+    }
+    .gap-m-4{
+        gap: 1rem;
+    }
+    .announcement{
+        padding: 3px 1rem;
+    }
+    .plan-item{
+        width: 100%;
+    }
+    
  }
 @media screen and (max-width: 320px) {
     header .logo img{
         width: 80%;
     }
+
 }
