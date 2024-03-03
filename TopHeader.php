@@ -39,9 +39,9 @@
                     <i data-lucide="help-circle"></i>
                     Billing & Support
                 </a>
-                <a class="mail" href="mailto:help@codenode.gg">
+                <a class="mail" href="mailto:Sales@codenode.gg">
                     <i data-lucide="mail"></i>
-                    help@codenode.gg
+                    Sales@codenode.gg
                 </a>
                 <a class="status" href="https://status.codenode.gg/en/">
                     <i data-lucide="radio"></i>
