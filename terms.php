@@ -15,11 +15,11 @@
     <!-- Open Graph Tags -->
     <meta property="og:title" content="Terms | CodeNode Hosting">
     <meta property="og:description" content="CodeNode provides the best Minecraft server hosting. Easy to set up, 24/7 support, with instant modpack and plugin install. Starting at $9.99.">
-    <meta property="og:image" content="./assets/favicon-192.png">
+    <meta property="og:image" content="https://codenode.gg/assets/favicon-192.png">
     <meta property="og:url" content="https://codenode.gg/terms">
     <!-- Favicon -->
-    <link rel="icon" href="./assets/favicon.ico" type="image/x-icon">
-    <link rel="icon" type="image/png" sizes="196x196" href="./assets/favicon-192.png">
+    <link rel="icon" href="https://codenode.gg/assets/favicon.ico" type="image/x-icon">
+    <link rel="icon" type="image/png" sizes="196x196" href="https://codenode.gg/assets/favicon-192.png">
 </head>
 
 <body>
