@@ -25,7 +25,7 @@
         <li class="nav-item mb-2"><a href="https://status.codenode.gg/en/" class="nav-link p-0 text-body-secondary">Server Status</a></li>
         <li class="nav-item mb-2"><a href="https://go.crisp.chat/chat/embed/?website_id=22b068e5-352b-4a08-aad3-e4bb97ae7ab9" class="nav-link p-0 text-body-secondary">Live Chat</a></li>
         <li class="nav-item mb-2"><a href="https://portal.codenode.gg/clientarea.php" class="nav-link p-0 text-body-secondary">Client Area</a></li>
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Game Panel</a></li>
+        <li class="nav-item mb-2"><a href="https://panel.codenode.gg/" class="nav-link p-0 text-body-secondary">Game Panel</a></li>
       </ul>
     </div>
 

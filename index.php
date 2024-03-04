@@ -224,7 +224,7 @@ include 'TopHeader.php';
                     <div class="plan-item">
                         <div class="plan-item-header">
                             <h4>BIG BUNDLE</h4>
-                            <p>Ideal if you need a Hub** server before joining the Main server</p>
+                            <p>Ideal if you need a Hub server before joining the Main server</p>
                         </div>
                         <div class="plan-item-body">
                             <p><i data-lucide="server"></i>1x Mid Tier Server</p>
@@ -245,7 +245,7 @@ include 'TopHeader.php';
                             <p>Designed for medium or big communities with plugin-rich experiences in mind</p>
                         </div>
                         <div class="plan-item-body">
-                            <p><i data-lucide="server"></i>2x Mid Tier Server Serverr</p>
+                            <p><i data-lucide="server"></i>2x Mid Tier Server Server</p>
                             <p><i data-lucide="server"></i>2x Big Tier Server Server</p>
                             <p><i data-lucide="router"></i>1x Waterfall or Velocity Proxy*</p>
                             <p><i data-lucide="network"></i>Includes Dedicated IP</p>
@@ -344,6 +344,8 @@ include 'TopHeader.php';
         </div>
     </div>
 </section>
+
+
 <?php
 // Path: footer.php
 include 'footer.php';
