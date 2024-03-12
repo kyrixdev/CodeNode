@@ -201,7 +201,7 @@ include 'TopHeader.php';
             </div>
             <p class="text-center text-light mt-2">Don't know what Guaranteed Players and Plugins mean? Check <a href="https://codenode-helpdesk.crisp.help/en/article/what-are-guaranteed-players-and-plugins-rmhpoo/" target="_blank">this article</a> out.</p>
         </div>
-        <div class="tab-pane fade" id="bundle-tab-pane" role="tabpanel" aria-labelledby="bundle-tab" tabindex="0">*
+        <div class="tab-pane fade" id="bundle-tab-pane" role="tabpanel" aria-labelledby="bundle-tab" tabindex="0">
         <div class="row">
                 <div class="col-lg-4">
                     <div class="plan-item">

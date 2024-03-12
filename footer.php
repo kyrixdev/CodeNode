@@ -1,5 +1,5 @@
 <div class="container">
-  <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5">
+  <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5">
     <div class="col mb-3">
       <a href="/" class="">
         <img src="./assets/CodeNode_Logo.svg" alt="CodeNode Logo" class="w-100">
@@ -49,7 +49,7 @@
     </div>
     
   </footer>
-  <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+  <div class="d-flex flex-column flex-sm-row justify-content-between py-4 border-top">
       <p class="text-light">© 2024 CodeNode LLC, Albany NY. All rights reserved.</p>
       <img src="./assets/payments.svg" alt="Payment Methods" class="">
     </div>
