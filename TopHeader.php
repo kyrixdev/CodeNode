@@ -3,7 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width">
     <title>CodeNode | Easy Hosting, Powerful Performance</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
@@ -21,7 +22,7 @@
     <!-- Favicon -->
     <link rel="icon" href="https://codenode.gg/assets/favicon.ico" type="image/x-icon">
     <link rel="icon" type="image/png" sizes="196x196" href="https://codenode.gg/assets/favicon-192.png">
-    
+
 </head>
 
 <body>
@@ -29,10 +30,10 @@
         <div class="topbar">
             <div class="socials">
                 <a href="#Twitter">
-                    <img src="./assets/faSquareXTwitter.svg" alt="Twitter">
+                    <img src="./assets/faSquareXTwitter.svg" alt="Twitter" width="28" heigh="28">
                 </a>
-                <a href="https://discord.gg/23ySdM2Dn8">
-                    <img src="./assets/faDiscord.svg" alt="Discord">
+                <a href="https://discord.gg/23ySdM2Dn8"  class="discord-link">
+                    <img src="./assets/faDiscord.svg" alt="Discord" width="28" heigh="28">
                     <span>Join our Discord</span>
                 </a>
             </div>
@@ -55,7 +56,7 @@
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container">
                 <a class="navbar-brand" href="/">
-                    <img src="./assets/CodeNode_Logo.svg" alt="CodeNode Logo">
+                    <img src="./assets/CodeNode_Logo.svg" width="340" height="72" alt="CodeNode Logo">
                 </a>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
@@ -90,7 +91,7 @@
         <div class="navbar m-navbar">
             <div class="container nav-container p-0">
                 <div class="logo">
-                    <img src="./assets/CodeNode_Logo.svg" alt="Logo TTG" />
+                    <img src="./assets/CodeNode_Logo.svg" width="340" height="72" alt="Logo CodeNode" />
                 </div>
                 <input class="checkbox" type="checkbox" name="" id="navToggle" />
                 <div class="hamburger-lines">
@@ -126,6 +127,6 @@
             </div>
         </div>
         <div class="minecraft-asset">
-            <img src="./assets/Minecraft_illustration.svg" alt="Minecraft Asset">
+            <img src="./assets/Minecraft_illustration.svg" width="539" height="402" alt="Minecraft Asset">
         </div>
     </header>

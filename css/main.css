@@ -271,7 +271,7 @@ header{
     border: 0;
 }
 .plan-item{
-    background: url('../assets/Background-plan.svg') no-repeat;
+    background: url('../assets/Background-plan.jpg') no-repeat;
     background-size: cover;
     width: fit-content;
     padding: 1rem;
@@ -333,11 +333,11 @@ header{
     font-weight: 700;
 }
 #bundle-tab-pane .plan-item{
-    background: url('../assets/buddles_background.svg') no-repeat;
+    background: url('../assets/buddles_background.jpg') no-repeat;
     background-size: cover;
 }
 #dedicated-tab-pane .plan-item{
-    background: url('../assets/semidedicated_background.svg') no-repeat;
+    background: url('../assets/semidedicated_background.jpg') no-repeat;
     background-size: cover;
 }
 world-map{
@@ -817,7 +817,9 @@ footer .nav-link{
 .tab-content>.active {
     display: block;
 }
-
+.discord-link{
+    align-items: center;
+}
 embed{
 }
 .download-btn{

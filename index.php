@@ -13,13 +13,13 @@ include 'TopHeader.php';
                 <div class="row gap-m-4">
                     <div class="col-lg-6">
                         <div class="why-us-item">
-                            <img src="./assets/supportIcon.svg" alt="">
+                            <img src="./assets/supportIcon.svg" alt="Support Icon" width="63" height="70">
                             <h4>24/7 Dedicated Support</h4>
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="why-us-item">
-                            <img src="./assets/instantIcon.svg" alt="">
+                            <img src="./assets/instantIcon.svg" alt="Instant Activation Icon" width="90" height="70">
                             <h4>Instant Activation</h4>
                         </div>
                     </div>
@@ -27,13 +27,13 @@ include 'TopHeader.php';
                 <div class="row ms-4 mt-4 mm-0 gap-m-4">
                     <div class="col-lg-6">
                         <div class="why-us-item">
-                            <img src="./assets/ddosIcon.svg" alt="">
+                            <img src="./assets/ddosIcon.svg" alt="Ddos Protection Icon" width="70" height="70">
                             <h4>DDOS PROTECTION</h4>
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="why-us-item">
-                            <img src="./assets/hardwareIcon.svg" alt="">
+                            <img src="./assets/hardwareIcon.svg" alt="Premium Hardware Iocn" width="70" height="70">
                             <h4>Premium Hardware</h4>
                         </div>
                     </div>
@@ -52,21 +52,21 @@ include 'TopHeader.php';
         <div class="row justify-content-center my-5">
                 <div class="col-lg-4">
                     <div class="feature-item">
-                        <img src="./assets/SupportIconF.svg" alt="">
+                        <img src="./assets/SupportIconF.svg" alt="Support Icon" width="113" height="113">
                         <h4>24/7 Semi-Managed Support</h4>
                         <p>Your server's success is our success. We're available 24/7 to answer any doubts you might have regarding how to operate or customize your server.</p>
                     </div>
                 </div>
             <div class="col-lg-4">
                 <div class="feature-item">
-                    <img src="./assets/IPIconF.svg" alt="">
+                    <img src="./assets/IPIconF.svg" alt="Free Dedicated IP Icon" width="113" height="113">
                     <h4>Free Dedicated IP</h4>
                     <p>We offer a free dedicated IP with all our plans, so your players will be able to connect easily to your server.</p>
                 </div>
             </div>
             <div class="col-lg-4">
                 <div class="feature-item">
-                    <img src="./assets/ScalabiltyIconF.svg" alt="">
+                    <img src="./assets/ScalabiltyIconF.svg" alt="Reliability Icon" width="113" height="113">
                     <h4>Reliability & Scalability</h4>
                     <p>Need more resources? We've got you and your community covered. If what you're looking for isn't currently offered, we can tailor a personalized solution that matches your needs.</p>
                 </div>
@@ -75,21 +75,21 @@ include 'TopHeader.php';
         <div class="row justify-content-center">
             <div class="col-lg-4">
                 <div class="feature-item">
-                    <img src="./assets/EasyIconF.svg" alt="">
+                    <img src="./assets/EasyIconF.svg" alt="Easy-To-Use Icon" width="113" height="113">
                     <h4>Easy-To-Use Services</h4>
                     <p>We invested heavily into reasearching and developing our services to be able to provide you with ease of use and peace of mind.</p>
                 </div>
             </div>
             <div class="col-lg-4">
                 <div class="feature-item">
-                    <img src="./assets/CheckIconF.svg" alt="">
+                    <img src="./assets/CheckIconF.svg" alt="Player & Plugin Icon" width="99" height="99">
                     <h4>Player & Plugin Guarantees</h4>
                     <p>Most hosting providers will give throw you into a pool of resources and call it a day. We, on the other hand, make sure our promises are met and your server is running optimally.</p>
                 </div>
             </div>
             <div class="col-lg-4">
                 <div class="feature-item">
-                    <img src="./assets/DiscordIconF.svg" alt="">
+                    <img src="./assets/DiscordIconF.svg" alt="Free Discord Bot Hosting Icon" width="99" height="99">
                     <h4>Discord Bot Hosting</h4>
                     <p>Your server's success is our success. and to help you manage your discord community we offer free discord bot hosting with each of our plans.</p>
                 </div>
@@ -125,7 +125,7 @@ include 'TopHeader.php';
                             <p>Optimized for the best experience playing with your close ones</p>
                         </div>
                         <div class="plan-item-body">
-                            <p><i data-lucide="cpu"></i>1 CPU Core (Shared)</p>
+                            <p><i data-lucide="cpu" width="24" height="24"></i>1 CPU Core (Shared)</p>
                             <p><i data-lucide="memory-stick"></i>4 gb RAM (Dedicated)</p>
                             <p><i data-lucide="database"></i>25 gb Storage</p>
                             <p><i data-lucide="users"></i>10 Guaranteed Player Slots</p>
@@ -287,11 +287,11 @@ include 'TopHeader.php';
         <div class="location-title">
             <p>Choose your location</p>
             <h2>Our Minecraft Server Hosting Locations</h2>
-            <button class="btn btn-primary mt-2" onclick="startPingTests()">Start Ping Tests</button>
+<!--             <button class="btn btn-primary mt-2" onclick="startPingTests()">Start Ping Tests</button>
             <div class="d-flex flex-row justify-content-center gap-3 mt-2">
                 <div class="result" id="Location1"></div>
                 <div class="result" id="Location2"></div>
-            </div>
+            </div> -->
         </div>
         <div class="row justify-content-center my-5">
             <div class="col-lg-5">
