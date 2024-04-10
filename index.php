@@ -2,7 +2,7 @@
 // Path: TopBar.php
 include 'TopHeader.php';
 ?>
-<section class="why-us">
+<!-- <section class="why-us">
     <div class="container">
         <div class="row">
             <div class="col-lg-6 align-self-center">
@@ -41,64 +41,116 @@ include 'TopHeader.php';
             </div>
         </div>
     </div>
+</section> -->
+<section class="our-services">
+    <div class="container">
+        <h2 class="section-title">Our Services</h2>
+        <div class="d-flex row justify-content-center gap-5 py-5">
+            <div class="service">
+                <div class="service-img">
+                    <picture>
+                        <source srcset="./assets/camp_header.png" type="image/webp">
+                        <img src="./assets/camp_header.png" alt="Minecraft Hosting" width="100" height="100">
+                    </picture>
+                </div>
+                <div class="service-icon">
+                    <img src="./assets/PC.png" alt="Minecraft Icon" width="100" height="100">
+                </div>
+                <div class="service-content">
+                    <h4>Minecraft Hosting</h4>
+                    <p>Starting at 4.99$</p>
+                </div>
+            </div>
+            <div class="service">
+                <div class="service-img">
+                    <picture>
+                        <source srcset="./assets/palword.webp" type="image/webp">
+                        <img src="./assets/palword.webp" alt="Minecraft Hosting" width="100" height="100">
+                    </picture>
+                </div>
+                <div class="service-icon">
+                    <img src="./assets/PAL_R02.webp" alt="PalWorld Icon" width="100" height="100">
+                </div>
+                <div class="service-content">
+                    <h4>PalWorld Hosting</h4>
+                    <p>Starting at 4.99$</p>
+                </div>
+            </div>
+        </div>
+        <h6 class="soon-services text-center">More Services Coming Soon</h6>
+    </div>
 </section>
 
 <section class="features" id="features">
     <div class="container my-4">
         <div class="title">
-            <p>what is included ?</p>
-            <h2>Important Features of our services</h2>
+            <p>why choose us?</p>
+            <h2 class="section-title">Important Features of our services</h2>
         </div>
-        <div class="row justify-content-center my-5">
-                <div class="col-lg-4">
-                    <div class="feature-item">
-                        <img src="./assets/SupportIconF.svg" alt="Support Icon" width="113" height="113">
-                        <h4>24/7 Semi-Managed Support</h4>
-                        <p>Your server's success is our success. We're available 24/7 to answer any doubts you might have regarding how to operate or customize your server.</p>
+        <div class="features-rows">
+            <div class="row justify-content-center">
+                    <div class="col-lg-4">
+                        <div class="feature-item">
+                            <div class="feature-header">
+                                <i data-lucide="hand-coins"></i>
+                                <h4>Budget Friendly</h4>
+                            </div>
+                            <p>Your server's success is our success. We're available 24/7 to answer any doubts you might have regarding how to operate or customize your server.</p>
+                        </div>
                     </div>
-                </div>
-            <div class="col-lg-4">
-                <div class="feature-item">
-                    <img src="./assets/IPIconF.svg" alt="Free Dedicated IP Icon" width="113" height="113">
-                    <h4>Free Dedicated IP</h4>
-                    <p>We offer a free dedicated IP with all our plans, so your players will be able to connect easily to your server.</p>
-                </div>
+                    <div class="col-lg-4">
+                        <div class="feature-item">
+                            <div class="feature-header">
+                                <i data-lucide="hand-coins"></i>
+                                <h4>Budget Friendly</h4>
+                            </div>
+                            <p>Your server's success is our success. We're available 24/7 to answer any doubts you might have regarding how to operate or customize your server.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="feature-item">
+                            <div class="feature-header">
+                                <i data-lucide="hand-coins"></i>
+                                <h4>Budget Friendly</h4>
+                            </div>
+                            <p>Your server's success is our success. We're available 24/7 to answer any doubts you might have regarding how to operate or customize your server.</p>
+                        </div>
+                    </div>
             </div>
-            <div class="col-lg-4">
-                <div class="feature-item">
-                    <img src="./assets/ScalabiltyIconF.svg" alt="Reliability Icon" width="113" height="113">
-                    <h4>Reliability & Scalability</h4>
-                    <p>Need more resources? We've got you and your community covered. If what you're looking for isn't currently offered, we can tailor a personalized solution that matches your needs.</p>
-                </div>
-            </div>
-        </div>
-        <div class="row justify-content-center">
-            <div class="col-lg-4">
-                <div class="feature-item">
-                    <img src="./assets/EasyIconF.svg" alt="Easy-To-Use Icon" width="113" height="113">
-                    <h4>Easy-To-Use Services</h4>
-                    <p>We invested heavily into reasearching and developing our services to be able to provide you with ease of use and peace of mind.</p>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="feature-item">
-                    <img src="./assets/CheckIconF.svg" alt="Player & Plugin Icon" width="99" height="99">
-                    <h4>Player & Plugin Guarantees</h4>
-                    <p>Most hosting providers will give throw you into a pool of resources and call it a day. We, on the other hand, make sure our promises are met and your server is running optimally.</p>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="feature-item">
-                    <img src="./assets/DiscordIconF.svg" alt="Free Discord Bot Hosting Icon" width="99" height="99">
-                    <h4>Discord Bot Hosting</h4>
-                    <p>Your server's success is our success. and to help you manage your discord community we offer free discord bot hosting with each of our plans.</p>
-                </div>
+            <div class="row justify-content-center">
+                    <div class="col-lg-4">
+                        <div class="feature-item">
+                            <div class="feature-header">
+                                <i data-lucide="hand-coins"></i>
+                                <h4>Budget Friendly</h4>
+                            </div>
+                            <p>Your server's success is our success. We're available 24/7 to answer any doubts you might have regarding how to operate or customize your server.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="feature-item">
+                            <div class="feature-header">
+                                <i data-lucide="hand-coins"></i>
+                                <h4>Budget Friendly</h4>
+                            </div>
+                            <p>Your server's success is our success. We're available 24/7 to answer any doubts you might have regarding how to operate or customize your server.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="feature-item">
+                            <div class="feature-header">
+                                <i data-lucide="hand-coins"></i>
+                                <h4>Budget Friendly</h4>
+                            </div>
+                            <p>Your server's success is our success. We're available 24/7 to answer any doubts you might have regarding how to operate or customize your server.</p>
+                        </div>
+                    </div>
             </div>
         </div>
     </div>
 </section>
 
-<section class="plans" id='plans'>
+<!-- <section class="plans" id='plans'>
     <div class="container my-4">
         <div class="title">
             <p>Choose your plan</p>
@@ -281,40 +333,46 @@ include 'TopHeader.php';
                     </div>
         </div>
         </div>
-</section>
+</section> -->
 <section class="locations" id="locations">
     <div class="container">
         <div class="location-title">
             <p>Choose your location</p>
-            <h2>Our Minecraft Server Hosting Locations</h2>
+            <h2>We Offer locations all around the world</h2>
 <!--             <button class="btn btn-primary mt-2" onclick="startPingTests()">Start Ping Tests</button>
             <div class="d-flex flex-row justify-content-center gap-3 mt-2">
                 <div class="result" id="Location1"></div>
                 <div class="result" id="Location2"></div>
             </div> -->
         </div>
-        <div class="row justify-content-center my-5">
-            <div class="col-lg-5">
-                <div class="col-lg-10 my-2">
+        <div class="row justify-content-center my-3">
+            <div class="col-lg-12 row d-flex justify-content-center my-3">
+                <div class="col-lg-4 my-2">
                     <div class="location-item col-lg-12">
-                        <div class="col-lg-6 p-4">
+                        <div class="live-locations">
+                            <span>PREMIUM</span>
+                        </div>
+                        <div class="col-lg-12">
                             <img src="./assets/united_state_flag.webp" alt="" class="">
                             <h5>Dallas, USA</h5>
                         </div>
-                        <p class="col-lg-6">Our servers are located in the heart of the United States, providing the best latency for North American players</p>
+                        <p class="col-lg-12">Our servers are located in the heart of the United States, providing the best latency for North American players</p>
                     </div>
                 </div>
-                <div class="col-lg-10 my-2  ">
+                <div class="col-lg-4 my-2  ">
                     <div class="location-item col-lg-12">
-                        <div class="col-lg-6 p-4">
+                        <div class="live-locations">
+                            <span>PREMIUM</span>
+                        </div>
+                        <div class="col-lg-12">
                             <img src="./assets/europe_flag.png" alt="" class="">
                             <h5>Netherlands, EU</h5>
                         </div>
-                        <p class="col-lg-6">The Netherlands location is placed strategically in order for our European clientele to enjoy great latency and fast speeds.</p>
+                        <p class="col-lg-12">The Netherlands location is placed strategically in order for our European clientele to enjoy great latency and fast speeds.</p>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-7">
+            <div class="col-lg-12">
             <world-map class="map">
                 <world-map-location top="41%" left="22%" label="Dallas, US"></world-map-location>
                 <world-map-location top="31%" left="47.5%" label="Netherland, EU"></world-map-location>
@@ -324,23 +382,47 @@ include 'TopHeader.php';
     </div>
 </section>
 <section class="contact-us">
-    <div class="container-fluid">
-        <div class="row container mx-auto">
-            <div class="col-lg-6">
-                <div class="contact-us-item">
-                    <h6>Need Help?</h6>
-                    <h2>RESPONSIVE SUPPORT TEAM</h2>
-                    <p>Best in class 24/7/365 support. We're ready to take care of any of your server hosting issues at any time - just get in touch using our LiveChat!</p>
-                    <a href="#" class="btn btn-primary">SUPPORT CENTER</a>
+    <div class="container">
+        <p>Have any questions?</p>
+        <div class="parrot">
+            <h2>We're here to help!</h2>
+            <img src="./assets/parrot.png" alt="Pirrot" width="100" height="100">
+        </div>
+        <div class="row align-items-center justify-content-center">
+            <div class="d-flex row col-lg-12 justify-content-center">
+                <div class="col-lg-12 d-flex row gap-3 justify-content-center help-containers">
+                    <a href="" class="contact-us-item">
+                        <div class="contact-us-icon">
+                            <img src="./assets/faDiscord.svg" alt="Discord" width="28" heigh="28">
+                        </div>
+                        <div class="contact-us-content">
+                            <h5>Join Our Discord</h5>
+                            <p>We can assist through our discord server!</p>
+                        </div>
+                    </a>
+                    <a href="https://kb.codenode.gg/en/" class="contact-us-item">
+                        <div class="contact-us-icon">
+                        <i data-lucide="book-text" width="50" height="50"></i>
+                        </div>
+                        <div class="contact-us-content">
+                            <h5>Knowledgebase</h5>
+                            <p>Check our knowledgebase for common issues and solutions</p>
+                        </div>
+                    </a>
+                    <a href="https://kb.codenode.gg/en/" class="contact-us-item">
+                        <div class="contact-us-icon">
+                            <i data-lucide="message-circle-heart" width="50" height="50"></i>
+                        </div>
+                        <div class="contact-us-content">
+                            <h5>Live Chat</h5>
+                            <p>Chat with us in real time</p>
+                        </div>
+                    </a>
                 </div>
             </div>
-            <div class="col-lg-6">
-                <div class="contact-us-item-l">
-                    
-                    <p>We respond to your tickets in 30 Mins or less 98.8% of the time.</p>
-                </div>
-                
-            </div>
+<!--             <div class="col-lg-4">
+                <img src="./assets/MCL_Modular_Keyart_P1_440x250.svg" alt="Pirrot" width="100" height="100">
+            </div> -->
         </div>
     </div>
 </section>

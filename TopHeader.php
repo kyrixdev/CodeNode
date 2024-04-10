@@ -27,11 +27,8 @@
 
 <body>
     <header>
-        <div class="topbar">
+        <div class="topbar container">
             <div class="socials">
-                <a href="#Twitter">
-                    <img src="./assets/faSquareXTwitter.svg" alt="Twitter" width="28" heigh="28">
-                </a>
                 <a href="https://discord.gg/23ySdM2Dn8"  class="discord-link">
                     <img src="./assets/faDiscord.svg" alt="Discord" width="28" heigh="28">
                     <span>Join our Discord</span>
@@ -39,15 +36,15 @@
             </div>
             <div class="support">
                 <a class="billing" href="https://portal.codenode.gg/clientarea.php">
-                    <i data-lucide="help-circle"></i>
+                    <i data-lucide="help-circle" width="18" height="18"></i>
                     Billing & Support
                 </a>
                 <a class="mail" href="mailto:Sales@codenode.gg">
-                    <i data-lucide="mail"></i>
-                    Sales@codenode.gg
+                    <i data-lucide="book-text" width="18" height="18"></i>
+                    Knowledgebase
                 </a>
                 <a class="status" href="https://status.codenode.gg/en/">
-                    <i data-lucide="radio"></i>
+                    <div class="status-circle"></div>
                     Status Page
                 </a>
             </div>
@@ -58,34 +55,37 @@
                 <a class="navbar-brand" href="/">
                     <img src="./assets/CodeNode_Logo.svg" width="340" height="72" alt="CodeNode Logo">
                 </a>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#features">Features</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#plans">Services</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#locations">Locations</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="about">About</a>
-                        </li>
-                    </ul>
+                <div class="d-flex flex-column align-items-left">
+                    <div class="navbar-buttons text-end">
+                        <a href="https://panel.codenode.gg/" class="btn btn-secondary mx-2">
+                            <i data-lucide="gamepad"></i>
+                            Game Panel
+                        </a>
+                        <a href="https://portal.codenode.gg/index.php?rp=/login" class="btn btn-primary mx-2">
+                            <i data-lucide="user"></i>
+                            Client Area
+                        </a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="index">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#features">Minecraft Server</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#plans">Palword Server</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#locations">About us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="about">Partners</a>
+                                </li>
+                            </ul>
+                    </div>
                 </div>
-                <div class="navbar-buttons">
-                    <a href="https://panel.codenode.gg/" class="btn btn-secondary mx-2">
-                        <i data-lucide="gamepad"></i>
-                        Game Panel
-                    </a>
-                    <a href="https://portal.codenode.gg/index.php?rp=/login" class="btn btn-primary mx-2">
-                        <i data-lucide="user"></i>
-                        Client Area
-                    </a>
             </div>
         </nav>
         <div class="navbar m-navbar">
@@ -121,12 +121,28 @@
                     <span>NEW</span>
                     <p>Get 35% off your first month with code <strong>CODE35</strong></p>
                 </div>
-                <h1>Minecraft Server <span>Hosting</span></h1>
+                <h1>Code<span>Node</span> is beyond the usual</h1>
                 <p class="mb-2">Easy Hosting, Powerful Performance</p>
+                <div class="d-flex gap-3 justify-content-center flex-wrap">
+                    <div class="d-flex gap-2">
+                        <i data-lucide="circle-check" color="#7FFFD4"></i>
+                        <p class="text-blublu fw-medium">24/7 Support</p>
+                    </div>
+                    <div class="d-flex gap-2">
+                        <i data-lucide="circle-check" color="#7FFFD4"></i>
+                        <p class="text-blublu fw-medium">Instant Setup</p>
+                    </div>
+                    <div class="d-flex gap-2">
+                        <i data-lucide="circle-check" color="#7FFFD4"></i>
+                        <p class="text-blublu fw-medium">Modpacks & Plugins</p>
+                    </div>
+                </div>
                 <a href="#plans" class="btn btn-primary mx-auto px-5 py-2 fs-4 fw-bold">Get Started</a>
+
             </div>
         </div>
-        <div class="minecraft-asset">
+<!--         <div class="minecraft-asset">
             <img src="./assets/Minecraft_illustration.svg" width="539" height="402" alt="Minecraft Asset">
-        </div>
+        </div> -->
+        
     </header>

@@ -1,29 +1,25 @@
 <div class="container">
   <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5">
-    <div class="col mb-3">
-      <a href="/" class="">
-        <img src="./assets/CodeNode_Logo.svg" alt="CodeNode Logo" class="w-100">
+    <div class="col-lg-4 mb-3 col-sm-6">
+      <a href="/" class="d-block">
+        <img src="./assets/CodeNode_Logo.svg" alt="CodeNode Logo" width="240px" height="51px" class="w-100 h-100">
       </a>
       <div class="socials d-flex flex-row justify-content-center">
         <a href="#" class="text-body-secondary me-2">
-          <img src="./assets/faSquareXTwitter.svg" alt="Twitter">
+          <img src="./assets/faSquareXTwitter.svg" alt="Twitter" width="20px" height="20px">
         </a>
         <a href="https://discord.gg/23ySdM2Dn8" class="text-body-secondary me-2">
-          <img src="./assets/faDiscord.svg" alt="Discord">
+          <img src="./assets/faDiscord.svg" alt="Discord" width="20px" height="20px">
         </a>
       </div>
-    </div>
-
-    <div class="col mb-3">
-
     </div>
 
     <div class="col mb-3">
       <h5>Support</h5>
       <ul class="nav flex-column">
         <li class="nav-item mb-2"><a href="https://kb.codenode.gg/en/" class="nav-link p-0 text-body-secondary">Knowledgebase</a></li>
-        <li class="nav-item mb-2"><a href="https://status.codenode.gg/en/" class="nav-link p-0 text-body-secondary">Server Status</a></li>
-        <li class="nav-item mb-2"><a href="https://go.crisp.chat/chat/embed/?website_id=22b068e5-352b-4a08-aad3-e4bb97ae7ab9" class="nav-link p-0 text-body-secondary">Live Chat</a></li>
+        <li class="nav-item mb-2"><a href="https://status.codenode.gg/en/" class="nav-link p-0 text-body-secondary">Server Status<div class="status-circle"></div></a></li>
+        <li class="nav-item mb-2"><a href="https://go.crisp.chat/chat/embed/?website_id=22b068e5-352b-4a08-aad3-e4bb97ae7ab9" class="nav-link p-0 text-body-secondary">Live Chat  <span class="support-live">24/7</span></a></li>
         <li class="nav-item mb-2"><a href="https://portal.codenode.gg/clientarea.php" class="nav-link p-0 text-body-secondary">Client Area</a></li>
         <li class="nav-item mb-2"><a href="https://panel.codenode.gg/" class="nav-link p-0 text-body-secondary">Game Panel</a></li>
       </ul>
@@ -44,14 +40,15 @@
       <h5>Services</h5>
       <ul class="nav flex-column">
         <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Minecraft Hosting</a></li>
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Palworld <span class="soon-product">SOON</span></a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Palworld</a></li>
       </ul>
     </div>
     
   </footer>
-  <div class="d-flex flex-column flex-sm-row justify-content-between py-4 border-top">
-      <p class="text-light">© 2024 CodeNode LLC, Albany NY. All rights reserved.</p>
-      <img src="./assets/payments.svg" alt="Payment Methods" class="">
+  <div class="d-flex flex-row flex-md-row flex-sm-column justify-content-between py-4 border-top align-items-center last-footer">
+      <p class="text-light mb-0">© 2024 CodeNode LLC, Albany NY. All rights reserved.</p>
+      <a href="//www.dmca.com/Protection/Status.aspx?ID=f80ae1c4-7748-4197-b4c6-55ca196f4734" title="DMCA.com Protection Status" class="dmca-badge"> <img src ="https://images.dmca.com/Badges/dmca_protected_sml_120n.png?ID=f80ae1c4-7748-4197-b4c6-55ca196f4734"  alt="DMCA.com Protection Status" /></a>  <script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script>
+      <img src="./assets/payments.svg" alt="Payment Methods" class="" width="482px" height="48px">
     </div>
 </div>
 
