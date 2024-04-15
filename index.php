@@ -46,7 +46,7 @@ include 'TopHeader.php';
     <div class="container">
         <h2 class="section-title">Our Services</h2>
         <div class="d-flex row justify-content-center gap-5 py-5">
-            <div class="service">
+            <a href="minecraft.php" class="service">
                 <div class="service-img">
                     <picture>
                         <source srcset="./assets/camp_header.png" type="image/webp">
@@ -60,7 +60,7 @@ include 'TopHeader.php';
                     <h4>Minecraft Hosting</h4>
                     <p>Starting at 4.99$</p>
                 </div>
-            </div>
+</a>
             <div class="service">
                 <div class="service-img">
                     <picture>
@@ -356,7 +356,11 @@ include 'TopHeader.php';
                             <img src="./assets/united_state_flag.webp" alt="" class="">
                             <h5>Dallas, USA</h5>
                         </div>
-                        <p class="col-lg-12">Our servers are located in the heart of the United States, providing the best latency for North American players</p>
+                        <ul class="p-0">
+                            <li class="d-inline-flex me-2 gap-1"><i data-lucide="cpu"></i> CPU: 3.2-4 GHz</li>
+                            <li class="d-inline-flex me-2 gap-1"><i data-lucide="memory-stick"></i> RAM: DDR4 2133 MHz</li>
+                            <li class="d-block m-auto text-center gap-1"><i data-lucide="hard-drive"></i> SSD: SOFT RAID 1 (400 MB/s r/w)</li>
+                        </ul>
                     </div>
                 </div>
                 <div class="col-lg-4 my-2  ">
@@ -368,7 +372,11 @@ include 'TopHeader.php';
                             <img src="./assets/europe_flag.png" alt="" class="">
                             <h5>Netherlands, EU</h5>
                         </div>
-                        <p class="col-lg-12">The Netherlands location is placed strategically in order for our European clientele to enjoy great latency and fast speeds.</p>
+                        <ul class="p-0">
+                            <li class="d-inline-flex me-2 gap-1"><i data-lucide="cpu"></i> CPU: 3.2-4 GHz</li>
+                            <li class="d-inline-flex me-2 gap-1"><i data-lucide="memory-stick"></i> RAM: DDR4 2133 MHz</li>
+                            <li class="d-block m-auto text-center gap-1"><i data-lucide="hard-drive"></i> SSD: SOFT RAID 1 (400 MB/s r/w)</li>
+                        </ul>
                     </div>
                 </div>
             </div>

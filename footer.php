@@ -75,6 +75,18 @@ window.CRISP_WEBSITE_ID = "22b068e5-352b-4a08-aad3-e4bb97ae7ab9";
     s.async = 1;
     d.getElementsByTagName("head")[0].appendChild(s);
 })();
+
+
+</script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-HJ55SGKW5T">
+</script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-HJ55SGKW5T');
 </script>
 </body>
 
