@@ -39,8 +39,8 @@
     <div class="col mb-3">
       <h5>Services</h5>
       <ul class="nav flex-column">
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Minecraft Hosting</a></li>
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Palworld</a></li>
+        <li class="nav-item mb-2"><a href="minecraft" class="nav-link p-0 text-body-secondary">Minecraft Hosting</a></li>
+        <li class="nav-item mb-2"><a href="palworld" class="nav-link p-0 text-body-secondary">Palworld</a></li>
       </ul>
     </div>
     

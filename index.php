@@ -93,27 +93,27 @@ include 'TopHeader.php';
                         <div class="feature-item">
                             <div class="feature-header">
                                 <i data-lucide="hand-coins"></i>
-                                <h4>Budget Friendly</h4>
+                                <h4>Performance Optimization</h4>
                             </div>
-                            <p>Your server's success is our success. We're available 24/7 to answer any doubts you might have regarding how to operate or customize your server.</p>
+                            <p>We emphasise server performance in order to ensure that our systems are optimized for the best possible gaming experience.</p>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="feature-item">
                             <div class="feature-header">
                                 <i data-lucide="hand-coins"></i>
-                                <h4>Budget Friendly</h4>
+                                <h4>Customer Support</h4>
                             </div>
-                            <p>Your server's success is our success. We're available 24/7 to answer any doubts you might have regarding how to operate or customize your server.</p>
+                            <p>We pride ourself on providing excellent customer support, being available 24/7 to assist with any questions or issues regarding server operation or customization. We promise to ensure that your server is running optimally.</p>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="feature-item">
                             <div class="feature-header">
                                 <i data-lucide="hand-coins"></i>
-                                <h4>Budget Friendly</h4>
+                                <h4>Strategic Locations</h4>
                             </div>
-                            <p>Your server's success is our success. We're available 24/7 to answer any doubts you might have regarding how to operate or customize your server.</p>
+                            <p>To cater to a global audience, we have strategically placed our servers in the United States and The Netherlands. This placement is intended to provide the best latency and fast speeds for North American and European players, respectively.</p>
                         </div>
                     </div>
             </div>
@@ -122,27 +122,27 @@ include 'TopHeader.php';
                         <div class="feature-item">
                             <div class="feature-header">
                                 <i data-lucide="hand-coins"></i>
-                                <h4>Budget Friendly</h4>
+                                <h4>Custom solutions</h4>
                             </div>
-                            <p>Your server's success is our success. We're available 24/7 to answer any doubts you might have regarding how to operate or customize your server.</p>
+                            <p>Recognizing that one size does not fit all, we offer personalized solutions tailored to the specific needs of our clients. If the standard offerings do not meet your requirements, we are willing to work with you to create a custom hosting package.</p>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="feature-item">
                             <div class="feature-header">
                                 <i data-lucide="hand-coins"></i>
-                                <h4>Budget Friendly</h4>
+                                <h4>Dedicated IP</h4>
                             </div>
-                            <p>Your server's success is our success. We're available 24/7 to answer any doubts you might have regarding how to operate or customize your server.</p>
+                            <p>We include a free dedicated IP with all plans, which simplifies the process for players to connect to your server. This feature is particularly beneficial for server owners who want to provide a stable and easily accessible connection for their community.</p>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="feature-item">
                             <div class="feature-header">
                                 <i data-lucide="hand-coins"></i>
-                                <h4>Budget Friendly</h4>
+                                <h4>Aditional services</h4>
                             </div>
-                            <p>Your server's success is our success. We're available 24/7 to answer any doubts you might have regarding how to operate or customize your server.</p>
+                            <p>Beyond just server hosting, we at CodeNode provide free Discord bot hosting with each of our plans. This is an added benefit for gaming communities that use Discord as their primary communication tool, allowing us to help them integrate and manage their community more effectively.</p>
                         </div>
                     </div>
             </div>

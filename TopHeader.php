@@ -72,16 +72,16 @@
                                     <a class="nav-link active" aria-current="page" href="index">Home</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#features">Minecraft Server</a>
+                                    <a class="nav-link" href="minecraft">Minecraft Server</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#plans">Palword Server</a>
+                                    <a class="nav-link" href="palworld">Palword Server</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#locations">About us</a>
+                                    <a class="nav-link" href="about">About us</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="about">Partners</a>
+                                    <a class="nav-link" href="partners">Partners</a>
                                 </li>
                             </ul>
                     </div>
@@ -103,14 +103,14 @@
                     <li><a class="menu-item" href="#">
                             Home</a>
                     </li>
-                    <li><a class="menu-item" href="#features">
-                    Features</a></li>
-                    <li><a class="menu-item" href="#plans">
-                    Services</a></li>
-                    <li><a class="menu-item" href="#locations">
-                    Locations</a></li>
+                    <li><a class="menu-item" href="minecraft">
+                    Minecraft</a></li>
+                    <li><a class="menu-item" href="palworld">
+                    Palworld</a></li>
                     <li><a class="menu-item" href="about">
                     About Us</a></li>
+                    <li><a class="menu-item" href="partners">
+                    Partners</a></li>
                 </div>
 
             </div>
