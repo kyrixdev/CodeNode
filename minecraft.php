@@ -47,7 +47,7 @@
                     <i data-lucide="help-circle" width="18" height="18"></i>
                     Billing & Support
                 </a>
-                <a class="mail" href="mailto:Sales@codenode.gg">
+                <a class="mail" href="https://kb.codenode.gg/en/">
                     <i data-lucide="book-text" width="18" height="18"></i>
                     Knowledgebase
                 </a>
@@ -80,16 +80,16 @@
                                     <a class="nav-link active" aria-current="page" href="index">Home</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#features">Minecraft Server</a>
+                                    <a class="nav-link" href="#plans">Minecraft Server</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#plans">Palword Server</a>
+                                    <a class="nav-link" href="/palworld">Palword Server</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#locations">About us</a>
+                                    <a class="nav-link" href="/about">About us</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="about">Partners</a>
+                                    <a class="nav-link" href="/about">Partners</a>
                                 </li>
                             </ul>
                     </div>
@@ -108,17 +108,17 @@
                     <span class="line line3"></span>
                 </div>
                 <div class="menu-items" id="dropDownMenu">
-                    <li><a class="menu-item" href="#">
+                    <li><a class="menu-item" href="/index">
                             Home</a>
                     </li>
-                    <li><a class="menu-item" href="#features">
-                    Features</a></li>
-                    <li><a class="menu-item" href="#plans">
-                    Services</a></li>
-                    <li><a class="menu-item" href="#locations">
-                    Locations</a></li>
-                    <li><a class="menu-item" href="about">
+                    <li><a class="menu-item" href="/minecraft">
+                    Minecraft Server</a></li>
+                    <li><a class="menu-item" href="/palworld">
+                    Palworld Servers</a></li>
+                    <li><a class="menu-item" href="/about">
                     About Us</a></li>
+                    <li><a class="menu-item" href="/partners">
+                    Partners</a></li>
                 </div>
 
             </div>
@@ -414,27 +414,27 @@
             <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3 w-100 flex-wrap">
                 <div class="feature  col-lg-5">
                     <i data-lucide="check" width="64" height="64"></i>
-                    <h6>Powerful Hardware</h6>
+                    <h6>Plugins installer</h6>
                 </div>
                 <div class="feature  col-lg-5">
                     <i data-lucide="check" width="64" height="64"></i>
-                    <h6>Powerful Hardware</h6>
+                    <h6>Server properties file configurator</h6>
                 </div>
                 <div class="feature  col-lg-5">
                     <i data-lucide="check" width="64" height="64"></i>
-                    <h6>Powerful Hardware</h6>
+                    <h6>Easy verisons changer</h6>
                 </div>
                 <div class="feature  col-lg-5">
                     <i data-lucide="check" width="64" height="64"></i>
-                    <h6>Powerful Hardware</h6>
+                    <h6>Automatic import from another host</h6>
                 </div>
                 <div class="feature  col-lg-5">
                     <i data-lucide="check" width="64" height="64"></i>
-                    <h6>Powerful Hardware</h6>
+                    <h6>Games changer</h6>
                 </div>
                 <div class="feature  col-lg-5">
                     <i data-lucide="check" width="64" height="64"></i>
-                    <h6>Powerful Hardware</h6>
+                    <h6>Fine design</h6>
                 </div>
             </div>
         </div>

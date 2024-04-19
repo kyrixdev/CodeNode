@@ -23,28 +23,25 @@
 </head>
 
 <body>
-    <header>
-        <div class="topbar">
+<header>
+        <div class="topbar container">
             <div class="socials">
-                <a href="#Twitter">
-                    <img src="./assets/faSquareXTwitter.svg" alt="Twitter">
-                </a>
-                <a href="https://discord.gg/23ySdM2Dn8">
-                    <img src="./assets/faDiscord.svg" alt="Discord">
+                <a href="https://discord.gg/23ySdM2Dn8"  class="discord-link">
+                    <img src="./assets/faDiscord.svg" alt="Discord" width="28" heigh="28">
                     <span>Join our Discord</span>
                 </a>
             </div>
             <div class="support">
                 <a class="billing" href="https://portal.codenode.gg/clientarea.php">
-                    <i data-lucide="help-circle"></i>
+                    <i data-lucide="help-circle" width="18" height="18"></i>
                     Billing & Support
                 </a>
-                <a class="mail" href="mailto:Sales@codenode.gg">
-                    <i data-lucide="mail"></i>
-                    Sales@codenode.gg
+                <a class="mail" href="https://kb.codenode.gg/en/">
+                    <i data-lucide="book-text" width="18" height="18"></i>
+                    Knowledgebase
                 </a>
                 <a class="status" href="https://status.codenode.gg/en/">
-                    <i data-lucide="radio"></i>
+                    <div class="status-circle"></div>
                     Status Page
                 </a>
             </div>
@@ -53,42 +50,45 @@
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container">
                 <a class="navbar-brand" href="/">
-                    <img src="./assets/CodeNode_Logo.svg" alt="CodeNode Logo">
+                    <img src="./assets/CodeNode_Logo.svg" width="340" height="72" alt="CodeNode Logo">
                 </a>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="index#features">Features</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="index#plans">Services</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="index#locations">Locations</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="about">About</a>
-                        </li>
-                    </ul>
+                <div class="d-flex flex-column align-items-left">
+                    <div class="navbar-buttons text-end">
+                        <a href="https://panel.codenode.gg/" class="btn btn-secondary mx-2">
+                            <i data-lucide="gamepad"></i>
+                            Game Panel
+                        </a>
+                        <a href="https://portal.codenode.gg/index.php?rp=/login" class="btn btn-primary mx-2">
+                            <i data-lucide="user"></i>
+                            Client Area
+                        </a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="index">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/minecraft">Minecraft Server</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#plans">Palword Server</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/about">About us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/partners">Partners</a>
+                                </li>
+                            </ul>
+                    </div>
                 </div>
-                <div class="navbar-buttons">
-                    <a href="#" class="btn btn-secondary mx-2">
-                        <i data-lucide="gamepad"></i>
-                        Game Panel
-                    </a>
-                    <a href="https://portal.codenode.gg/index.php?rp=/login" class="btn btn-primary mx-2">
-                        <i data-lucide="user"></i>
-                        Client Area
-                    </a>
             </div>
         </nav>
         <div class="navbar m-navbar">
             <div class="container nav-container p-0">
                 <div class="logo">
-                    <img src="./assets/CodeNode_Logo.svg" alt="Logo TTG" />
+                    <img src="./assets/CodeNode_Logo.svg" width="340" height="72" alt="Logo CodeNode" />
                 </div>
                 <input class="checkbox" type="checkbox" name="" id="navToggle" />
                 <div class="hamburger-lines">
@@ -97,28 +97,40 @@
                     <span class="line line3"></span>
                 </div>
                 <div class="menu-items" id="dropDownMenu">
-                    <li><a class="menu-item" href="index.php">
+                    <li><a class="menu-item" href="/index">
                             Home</a>
                     </li>
-                    <li><a class="menu-item" href="index#features">
-                    Features</a></li>
-                    <li><a class="menu-item" href="index#plans">
-                    Services</a></li>
-                    <li><a class="menu-item" href="index#locations">
-                    Locations</a></li>
-                    <li><a class="menu-item" href="about">
+                    <li><a class="menu-item" href="/minecraft">
+                    Minecraft Server</a></li>
+                    <li><a class="menu-item" href="/palworld">
+                    Palworld Servers</a></li>
+                    <li><a class="menu-item" href="/about">
                     About Us</a></li>
+                    <li><a class="menu-item" href="/partners">
+                    Partners</a></li>
                 </div>
 
             </div>
         </div>
         <div class="hero">
-        <div class="container aboutus text-center">
-            <img src="./assets/500-500-max.png" alt="CodeNode Logo" class="mb-4">
-            <h1 class="text-light ">About Us</h1>
-            <p class="m-0">Easy Hosting, Powerful Performance</p>
+            <div class="container">
+<!--                 <div class="announcement">
+                    <span>NEW</span>
+                    <p>Get 35% off your first month with code <strong>CODE35</strong></p>
+                </div> -->
+
+                <h1>ABOUT US</h1>
+                <p class="mb-2">Code<span>Node</span> is beyond the usual</p>
+                <p class="mb-2 about-p">
+                Founded in 2023, CodeNode is a shiny hosting provider offering powerful game hosting at competitive price points. Our main aim is to make our services easy to use for both the technologically advanced people as well as the tech-illiterates. It’s no worry if you’re not a fine user of tech in general, we’re here to help you get what you want from your hosting package. The benefits included with each service help create a fine  player experience.
+                </p>
+
+            </div>
         </div>
-        </div>
+<!--        <div class="minecraft-asset">
+            <img src="./assets/Minecraft_illustration.svg" width="539" height="402" alt="Minecraft Asset">
+        </div> -->
+        
     </header>
 <section class="our-mission">
 <div class="container">

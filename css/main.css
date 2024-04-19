@@ -1410,6 +1410,91 @@ embed{
     align-items: center;
     gap: 10px;
 }
+.about-p{
+    font-size: medium !important;
+    color: white !important;
+    font-weight: 400 !important;
+}
+.partner{
+    background: linear-gradient(168.87deg, rgba(31, 32, 41, .8), rgba(31, 32, 39, .8));
+    border-color: rgb(36 38 46 / var(--tw-border-opacity));
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 5px 25px rgba(16, 18, 20, .25);
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.partner img{
+    width: 40%;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 1rem 0;
+}
+.partner::after{
+    content: "";
+    width: 427px;
+    height: 427px;
+    position: absolute;
+    right: -280px;
+    bottom: -259px;
+    pointer-events: none;
+    filter: blur(250px);
+    background: linear-gradient(181deg, rgba(65, 196, 195, 0.99) 0%, rgba(65, 196, 195, 0) 100%);
+    border-radius: 50%;
+}
+.partner h3{
+    font-weight: 800;
+    color: white;
+    text-align: center;
+}
+.partner p{
+    color: #AFAFAF;
+    font-weight: 500;
+    text-align: center;
+}
+.partner a{
+    background-color: var(--cyan-color);
+    color: black;
+    font-weight: 600;
+    border-radius: 50px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 1rem 2rem;
+    gap: 10px;
+    justify-content: center;
+}
+.contact-partner {
+    padding: 3rem;
+    box-shadow: 0 8px 100px 0px #000000;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.contact-partner h2{
+    color: white;
+    font-weight: 800;
+    margin: 0;
+    text-transform: uppercase;
+}
+.contact-partner p{
+    color: #AFAFAF;
+    font-weight: 500;
+    margin: 0;
+}
+.contact-partner .contact-us-item{
+    width: 60%;
+}
 @media screen and (max-width: 1024px) {
     .live-locations > span{
         font-size: small;
@@ -1492,6 +1577,10 @@ embed{
     }
     header{
         padding: 0;
+    }
+    .palworld-plan .plan-container{
+        flex-direction: column;
+        align-items: center;
     }
  }
 @media screen and (max-width: 320px) {

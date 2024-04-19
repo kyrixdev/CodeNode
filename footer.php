@@ -31,16 +31,16 @@
         <li class="nav-item mb-2"><a href="terms" class="nav-link p-0 text-body-secondary">Terms of Service</a></li>
         <li class="nav-item mb-2"><a href="terms" class="nav-link p-0 text-body-secondary">Privacy Policy</a></li>
         <li class="nav-item mb-2"><a href="https://www.minecraft.net/en-us/eula" class="nav-link p-0 text-body-secondary">Minecraft EULA</a></li>
-        <li class="nav-item mb-2"><a href="about" class="nav-link p-0 text-body-secondary">About Us</a></li>
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Partners</a></li>
+        <li class="nav-item mb-2"><a href="/about" class="nav-link p-0 text-body-secondary">About Us</a></li>
+        <li class="nav-item mb-2"><a href="/partners" class="nav-link p-0 text-body-secondary">Partners</a></li>
       </ul>
     </div>
 
     <div class="col mb-3">
       <h5>Services</h5>
       <ul class="nav flex-column">
-        <li class="nav-item mb-2"><a href="minecraft" class="nav-link p-0 text-body-secondary">Minecraft Hosting</a></li>
-        <li class="nav-item mb-2"><a href="palworld" class="nav-link p-0 text-body-secondary">Palworld</a></li>
+        <li class="nav-item mb-2"><a href="/minecraft" class="nav-link p-0 text-body-secondary">Minecraft Hosting</a></li>
+        <li class="nav-item mb-2"><a href="/palworld" class="nav-link p-0 text-body-secondary">Palworld</a></li>
       </ul>
     </div>
     

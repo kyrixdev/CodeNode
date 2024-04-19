@@ -15,8 +15,8 @@
     <link rel="canonical" href="https://codenode.gg/">
     <meta name="robots" content="index, follow">
     <!-- Open Graph Tags -->
-    <meta property="og:title" content="CodeNode Hosting | Minecraft Servers Hosting">
-    <meta property="og:description" content="CodeNode provides the best Minecraft server hosting. Easy to set up, 24/7 support, with instant modpack and plugin install. Starting at $9.99.">
+    <meta property="og:title" content="Palword Servers Hosting | Minecraft Servers Hosting">
+    <meta property="og:description" content="CodeNode provides the best Palworld server hosting. Easy to set up, 24/7 support, with instant modpack and plugin install. Starting at $16.99.">
     <meta property="og:image" content="https://codenode.gg/assets/favicon-192.png">
     <meta property="og:url" content="https://codenode.gg/">
     <!-- Favicon -->
@@ -47,7 +47,7 @@
                     <i data-lucide="help-circle" width="18" height="18"></i>
                     Billing & Support
                 </a>
-                <a class="mail" href="mailto:Sales@codenode.gg">
+                <a class="mail" href="https://kb.codenode.gg/en/">
                     <i data-lucide="book-text" width="18" height="18"></i>
                     Knowledgebase
                 </a>
@@ -75,21 +75,21 @@
                         </a>
                     </div>
                     <div class="collapse navbar-collapse" id="navbarNav">
-                            <ul class="navbar-nav">
+                        <ul class="navbar-nav">
                                 <li class="nav-item">
                                     <a class="nav-link active" aria-current="page" href="index">Home</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#features">Minecraft Server</a>
+                                    <a class="nav-link" href="/minecraft">Minecraft Server</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#plans">Palword Server</a>
+                                    <a class="nav-link" href="/palworld">Palword Server</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#locations">About us</a>
+                                    <a class="nav-link" href="/about">About us</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="about">Partners</a>
+                                    <a class="nav-link" href="/partners">Partners</a>
                                 </li>
                             </ul>
                     </div>
@@ -108,17 +108,17 @@
                     <span class="line line3"></span>
                 </div>
                 <div class="menu-items" id="dropDownMenu">
-                    <li><a class="menu-item" href="#">
+                    <li><a class="menu-item" href="/index">
                             Home</a>
                     </li>
-                    <li><a class="menu-item" href="#features">
-                    Features</a></li>
-                    <li><a class="menu-item" href="#plans">
-                    Services</a></li>
-                    <li><a class="menu-item" href="#locations">
-                    Locations</a></li>
-                    <li><a class="menu-item" href="about">
+                    <li><a class="menu-item" href="/minecraft">
+                    Minecraft Server</a></li>
+                    <li><a class="menu-item" href="/palworld">
+                    Palworld Servers</a></li>
+                    <li><a class="menu-item" href="/about">
                     About Us</a></li>
+                    <li><a class="menu-item" href="/partners">
+                    Partners</a></li>
                 </div>
 
             </div>
@@ -442,7 +442,7 @@
                             <p>Check our knowledgebase for common issues and solutions</p>
                         </div>
                     </a>
-                    <a href="https://kb.codenode.gg/en/" class="contact-us-item">
+                    <a href="https://go.crisp.chat/chat/embed/?website_id=22b068e5-352b-4a08-aad3-e4bb97ae7ab9" class="contact-us-item">
                         <div class="contact-us-icon">
                             <i data-lucide="message-circle-heart" width="50" height="50"></i>
                         </div>

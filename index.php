@@ -46,7 +46,7 @@ include 'TopHeader.php';
     <div class="container">
         <h2 class="section-title">Our Services</h2>
         <div class="d-flex row justify-content-center gap-5 py-5">
-            <a href="minecraft.php" class="service">
+            <a href="/minecraft.php" class="service">
                 <div class="service-img">
                     <picture>
                         <source srcset="./assets/camp_header.png" type="image/webp">
@@ -60,8 +60,8 @@ include 'TopHeader.php';
                     <h4>Minecraft Hosting</h4>
                     <p>Starting at 4.99$</p>
                 </div>
-</a>
-            <div class="service">
+            </a>
+            <a href="/palworld" class="service">
                 <div class="service-img">
                     <picture>
                         <source srcset="./assets/palword.webp" type="image/webp">
@@ -75,7 +75,7 @@ include 'TopHeader.php';
                     <h4>PalWorld Hosting</h4>
                     <p>Starting at 4.99$</p>
                 </div>
-            </div>
+            </a>
         </div>
         <h6 class="soon-services text-center">More Services Coming Soon</h6>
     </div>
@@ -417,7 +417,7 @@ include 'TopHeader.php';
                             <p>Check our knowledgebase for common issues and solutions</p>
                         </div>
                     </a>
-                    <a href="https://kb.codenode.gg/en/" class="contact-us-item">
+                    <a href="https://go.crisp.chat/chat/embed/?website_id=22b068e5-352b-4a08-aad3-e4bb97ae7ab9" class="contact-us-item">
                         <div class="contact-us-icon">
                             <i data-lucide="message-circle-heart" width="50" height="50"></i>
                         </div>
