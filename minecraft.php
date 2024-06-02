@@ -255,7 +255,7 @@
                             <p><i data-lucide="network"></i>Includes Dedicated IP</p>
                         </div>
                         <div class="plan-item-footer">
-                            <h3>$ 9.99/<span>Monthly</span></h3>
+                            <h3>$ 7.00/<span>Monthly</span></h3>
                             <a href="https://portal.codenode.gg/index.php?rp=/store/minecraft-servers/friends-and-family" class="btn btn-primary">Add to cart</a>
                         </div>
                     </div>
@@ -275,7 +275,7 @@
                             <p><i data-lucide="network"></i>Includes Dedicated IP</p>
                         </div>
                         <div class="plan-item-footer">
-                            <h3>$ 24.99/<span>Monthly</span></h3>
+                            <h3>$ 17.50/<span>Monthly</span></h3>
                             <a href="https://portal.codenode.gg/index.php?rp=/store/minecraft-servers/mid-tier" class="btn btn-primary">Add to cart</a>
                         </div>
                     </div>
@@ -295,7 +295,7 @@
                             <p><i data-lucide="network"></i>Includes Dedicated IP</p>
                         </div>
                         <div class="plan-item-footer">
-                            <h3>$ 36.99/<span>Monthly</span></h3>
+                            <h3>$ 28.00/<span>Monthly</span></h3>
                             <a href="https://portal.codenode.gg/index.php?rp=/store/minecraft-servers/big-tier" class="btn btn-primary">Add to cart</a>
                         </div>
                     </div>
@@ -315,7 +315,7 @@
                             <p><i data-lucide="network"></i>Includes Dedicated IP</p>
                         </div>
                         <div class="plan-item-footer">
-                            <h3>$ 59.99/<span>Monthly</span></h3>
+                            <h3>$ 42.00/<span>Monthly</span></h3>
                             <a href="https://portal.codenode.gg/index.php?rp=/store/minecraft-servers/mega-tier" class="btn btn-primary">Add to cart</a>
                         </div>
                     </div>
