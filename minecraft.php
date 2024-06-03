@@ -337,7 +337,7 @@
                             <p><i data-lucide="network"></i>Includes Dedicated IP</p>
                         </div>
                         <div class="plan-item-footer">
-                            <h3>$ 18.99/<span>Monthly</span></h3>
+                            <h3>$ 14.00/<span>Monthly</span></h3>
                             <a href="https://portal.codenode.gg/cart.php?a=add&bid=1" class="btn btn-primary">Add to cart</a>
                         </div>
                     </div>
@@ -355,7 +355,7 @@
                             <p><i data-lucide="network"></i>Includes Dedicated IP</p>
                         </div>
                         <div class="plan-item-footer">
-                            <h3>$ 59.99/<span>Monthly</span></h3>
+                            <h3>$ 43.50/<span>Monthly</span></h3>
                             <a href="https://portal.codenode.gg/cart.php?a=add&bid=4" class="btn btn-primary">Add to cart</a>
                         </div>
                     </div>
@@ -373,7 +373,7 @@
                             <p><i data-lucide="network"></i>Includes Dedicated IP</p>
                         </div>
                         <div class="plan-item-footer">
-                            <h3>$ 120.99/<span>Monthly</span></h3>
+                            <h3>$ 88.00/<span>Monthly</span></h3>
                             <a href="https://portal.codenode.gg/cart.php?a=add&bid=3" class="btn btn-primary">Add to cart</a>
                         </div>
                     </div>
