@@ -354,10 +354,11 @@ include 'TopHeader.php';
                         </div>
                         <div class="col-lg-12">
                             <img src="./assets/united_state_flag.webp" alt="" class="">
-                            <h5>Dallas, USA</h5>
+                            <h5>Washington  D.C</h5>
+                            <h5>Salt Lake City, Utah</h5>
                         </div>
                         <ul class="p-0">
-                            <li class="d-inline-flex me-2 gap-1"><i data-lucide="cpu"></i> CPU: 3.2-4 GHz</li>
+                            <li class="d-inline-flex me-2 gap-1"><i data-lucide="cpu"></i> CPU: Ryzen 7950x</li>
                             <li class="d-inline-flex me-2 gap-1"><i data-lucide="memory-stick"></i> RAM: DDR4 2133 MHz</li>
                             <li class="d-block m-auto text-center gap-1"><i data-lucide="hard-drive"></i> SSD: SOFT RAID 1 (400 MB/s r/w)</li>
                         </ul>
@@ -382,7 +383,8 @@ include 'TopHeader.php';
             </div>
             <div class="col-lg-12">
             <world-map class="map">
-                <world-map-location top="41%" left="22%" label="Dallas, US"></world-map-location>
+                <world-map-location top="38%" left="17%" label="Salt Lake City, Utah"></world-map-location>
+                <world-map-location top="37%" left="26%" label="Washington D.C"></world-map-location>
                 <world-map-location top="31%" left="47.5%" label="Netherland, EU"></world-map-location>
             </world-map>
             </div>

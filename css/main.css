@@ -1495,6 +1495,94 @@ embed{
 .contact-partner .contact-us-item{
     width: 60%;
 }
+.table-dedicated{
+    border-collapse: separate;
+    border-spacing: 0 1rem;
+    margin: 0 auto;
+    position: relative;
+    text-align: left;
+    width: 100%;
+
+}
+.table-dedicated tr td:first-child {
+    border-left: 6px solid var(--primary-color);
+    border-radius: 6px 0 0 6px;
+    padding: 16px 24px;
+    text-align: center;
+}
+.table-dedicated tr{
+    box-shadow: 0 8px 100px 0px #000000;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    background: #ffffff08;
+}
+.table-dedicated tr td{
+    vertical-align: middle;
+    background: #00000057;
+    color: white;
+}
+.table-dedicated thead th{
+    border: none;
+    background: transparent;
+    color: white;
+}
+.table-dedicated thead tr{
+    box-shadow: 0 8px 100px 0px #000000;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    color: white;
+}
+.table-dedicated .cpusepcs{
+    font-size: small;
+    color: gray;
+}
+
+.vpscard{
+    box-shadow: 0 8px 100px 0px #000000;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    background: none;
+    height: 100%;
+}
+.vpscard .card-header{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-direction: row;
+}
+.vpscard .card-header > h4{
+    font-weight: 800;
+    color: white;
+    text-transform: uppercase;
+    margin: 0;
+}
+.vpscard .card-header > svg{
+    color: white;
+}
+.vpscard .card-body{
+    padding: 1rem;
+    color: white;
+}
+.vpscard .card-body .gb > p{
+    color: #ffffff;
+    font-weight: 700;
+}
+.vpscard .card-body .gb > p > span{
+    color: gray;
+    font-weight: 500;
+
+}
+.discount{
+    font-weight: 800;
+    text-transform: uppercase;
+    color: var(--primary-color);
+}
 @media screen and (max-width: 1024px) {
     .live-locations > span{
         font-size: small;

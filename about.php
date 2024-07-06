@@ -64,7 +64,7 @@
                         </a>
                     </div>
                     <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav">
+                    <ul class="navbar-nav">
                                 <li class="nav-item">
                                     <a class="nav-link active" aria-current="page" href="index">Home</a>
                                 </li>
@@ -72,7 +72,10 @@
                                     <a class="nav-link" href="/minecraft">Minecraft Server</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#plans">Palword Server</a>
+                                    <a class="nav-link" href="/vps">VPS Hosting</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/dedicated">Dedicated Servers</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="/about">About us</a>

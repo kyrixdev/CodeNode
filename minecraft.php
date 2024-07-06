@@ -75,21 +75,24 @@
                         </a>
                     </div>
                     <div class="collapse navbar-collapse" id="navbarNav">
-                            <ul class="navbar-nav">
+                    <ul class="navbar-nav">
                                 <li class="nav-item">
                                     <a class="nav-link active" aria-current="page" href="index">Home</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#plans">Minecraft Server</a>
+                                    <a class="nav-link" href="/minecraft">Minecraft Server</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="/palworld">Palword Server</a>
+                                    <a class="nav-link" href="/vps">VPS Hosting</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/dedicated">Dedicated Servers</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="/about">About us</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="/about">Partners</a>
+                                    <a class="nav-link" href="/partners">Partners</a>
                                 </li>
                             </ul>
                     </div>
@@ -127,7 +130,7 @@
             <div class="container">
                 <div class="announcement">
                     <span>NEW</span>
-                    <p>Get 35% off your first month with code <strong>CODE35</strong></p>
+                    <p>Get 25% off your first month with code <strong>25OFF</strong></p>
                 </div>
                 <h1>Minecraft Servers Hosting</h1>
                 <p class="mb-2">Only Premium Services Here.</p>
@@ -225,16 +228,14 @@
         <div class="title">
             <p>Choose your plan</p>
             <h2>Our Minecraft Server Hosting Plans</h2>
+            <div class="discount"> We Have FIRST MONTH 25% OFF of All our Plans </div>
         </div>
         <ul class="nav nav-tabs" id="myTab" role="tablist">
         <li class="nav-item" role="presentation">
-            <button class="nav-link active" id="servers-tab" data-bs-toggle="tab" data-bs-target="#servers-tab-pane" type="button" role="tab" aria-controls="servers-tab-pane" aria-selected="true">Servers</button>
+            <button class="nav-link active" id="servers-tab" data-bs-toggle="tab" data-bs-target="#servers-tab-pane" type="button" role="tab" aria-controls="servers-tab-pane" aria-selected="true">US SERVERS</button>
         </li>
         <li class="nav-item mx-1" role="presentation">
-            <button class="nav-link" id="bundle-tab" data-bs-toggle="tab" data-bs-target="#bundle-tab-pane" type="button" role="tab" aria-controls="bundle-tab-pane" aria-selected="false">Bundles</button>
-        </li>
-        <li class="nav-item" role="presentation">
-            <button class="nav-link" id="dedicated-tab" data-bs-toggle="tab" data-bs-target="#dedicated-tab-pane" type="button" role="tab" aria-controls="dedicated-tab-pane" aria-selected="false">Semi-dedicated</button>
+            <button class="nav-link" id="bundle-tab" data-bs-toggle="tab" data-bs-target="#bundle-tab-pane" type="button" role="tab" aria-controls="bundle-tab-pane" aria-selected="false">EU SERVERS</button>
         </li>
         </ul>
         <div class="tab-content" id="myTabContent">
@@ -243,80 +244,57 @@
                 <div class="col-lg-3">
                     <div class="plan-item">
                         <div class="plan-item-header">
-                            <h4>FRIENDS & FAMILY</h4>
-                            <p>Optimized for the best experience playing with your close ones</p>
+                            <h4>PREMIUM 2GB</h4>
                         </div>
                         <div class="plan-item-body">
-                            <p><i data-lucide="cpu" width="24" height="24"></i>4 CPU Core (Shared)</p>
-                            <p><i data-lucide="memory-stick"></i>4 gb RAM (Dedicated)</p>
-                            <p><i data-lucide="database"></i>25 gb Storage</p>
-                            <p><i data-lucide="users"></i>10 Guaranteed Player Slots</p>
-                            <p><i data-lucide="blocks"></i>8 Guaranteed Plugins Capacity</p>
-                            <p><i data-lucide="network"></i>Includes Dedicated IP</p>
+                            <p><i data-lucide="cpu" width="24" height="24"></i>2 Ryzen 9 7950X Threads</p>
+                            <p><i data-lucide="memory-stick"></i>2GB DDR5 RAM</p>
+                            <p><i data-lucide="server"></i>30 gb Storage</p>
+                            <p><i data-lucide="database"></i>2x MySQL Database</p>
+                            <p><i data-lucide="folder-sync"></i>2 Backup Slots with 24-hour coverage</p>
+                            <p><i data-lucide="shield-check"></i>DDoS Protection Included</p>
                         </div>
                         <div class="plan-item-footer">
-                            <h3>$ 7.00/<span>Monthly</span></h3>
-                            <a href="https://portal.codenode.gg/index.php?rp=/store/minecraft-servers/friends-and-family" class="btn btn-primary">Add to cart</a>
+                            <h3>$ 4.50/<span>Monthly</span></h3>
+                            <a href="https://portal.codenode.gg/index.php?rp=/store/mc-hosting-r/premium-2gb" class="btn btn-primary">Add to cart</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3">
                     <div class="plan-item">
                         <div class="plan-item-header">
-                            <h4>MID TIER</h4>
-                            <p>Ideal for small communities with limited world sizes that need stable server performance</p>
+                            <h4>PREMIUM 3GB</h4>
                         </div>
                         <div class="plan-item-body">
-                            <p><i data-lucide="cpu"></i>5 CPU Core (Shared)</p>
-                            <p><i data-lucide="memory-stick"></i>10 gb RAM (Dedicated)</p>
-                            <p><i data-lucide="database"></i>50 gb Storage</p>
-                            <p><i data-lucide="users"></i>30 Guaranteed Player Slots</p>
-                            <p><i data-lucide="blocks"></i>25 Guaranteed Plugins Capacity</p>
-                            <p><i data-lucide="network"></i>Includes Dedicated IP</p>
+                            <p><i data-lucide="cpu" width="24" height="24"></i>2 Ryzen 9 7950X Threads</p>
+                            <p><i data-lucide="memory-stick"></i>3GB DDR5 RAM</p>
+                            <p><i data-lucide="server"></i>30 gb Storage</p>
+                            <p><i data-lucide="database"></i>2x MySQL Database</p>
+                            <p><i data-lucide="folder-sync"></i>2 Backup Slots with 24-hour coverage</p>
+                            <p><i data-lucide="shield-check"></i>DDoS Protection Included</p>
                         </div>
                         <div class="plan-item-footer">
-                            <h3>$ 17.50/<span>Monthly</span></h3>
-                            <a href="https://portal.codenode.gg/index.php?rp=/store/minecraft-servers/mid-tier" class="btn btn-primary">Add to cart</a>
+                            <h3>$ 6.75/<span>Monthly</span></h3>
+                            <a href="https://portal.codenode.gg/index.php?rp=/store/mc-hosting-r/premium-3gb" class="btn btn-primary">Add to cart</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3">
                     <div class="plan-item">
                         <div class="plan-item-header">
-                            <h4>BIG TIER</h4>
-                            <p>Designed for medium or big communities with plugin-rich experiences in mind</p>
+                            <h4>PREMIUM 4GB</h4>
                         </div>
                         <div class="plan-item-body">
-                            <p><i data-lucide="cpu"></i>6 CPU Core (Shared)</p>
-                            <p><i data-lucide="memory-stick"></i>16 gb RAM (Dedicated)</p>
-                            <p><i data-lucide="database"></i>Unmetered Storage</p>
-                            <p><i data-lucide="users"></i>50 Guaranteed Player Slots</p>
-                            <p><i data-lucide="blocks"></i>50 Guaranteed Plugins Capacity</p>
-                            <p><i data-lucide="network"></i>Includes Dedicated IP</p>
+                            <p><i data-lucide="cpu" width="24" height="24"></i>2 Ryzen 9 7950X Threads</p>
+                            <p><i data-lucide="memory-stick"></i>4GB DDR5 RAM</p>
+                            <p><i data-lucide="server"></i>30 gb Storage</p>
+                            <p><i data-lucide="database"></i>2x MySQL Database</p>
+                            <p><i data-lucide="folder-sync"></i>2 Backup Slots with 24-hour coverage</p>
+                            <p><i data-lucide="shield-check"></i>DDoS Protection Included</p>
                         </div>
                         <div class="plan-item-footer">
-                            <h3>$ 28.00/<span>Monthly</span></h3>
-                            <a href="https://portal.codenode.gg/index.php?rp=/store/minecraft-servers/big-tier" class="btn btn-primary">Add to cart</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="plan-item">
-                        <div class="plan-item-header">
-                            <h4>MEGA TIER</h4>
-                            <p>Tailored towards our most demanding customers. Enjoy smooth servers like never before!</p>
-                        </div>
-                        <div class="plan-item-body">
-                            <p><i data-lucide="cpu"></i>6 CPU Core (Dedicated)</p>
-                            <p><i data-lucide="memory-stick"></i>24 gb RAM (Dedicated)</p>
-                            <p><i data-lucide="database"></i>Unmetered Storage</p>
-                            <p><i data-lucide="users"></i>80 Guaranteed Player Slots</p>
-                            <p><i data-lucide="blocks"></i>60 Guaranteed Plugins Capacity</p>
-                            <p><i data-lucide="network"></i>Includes Dedicated IP</p>
-                        </div>
-                        <div class="plan-item-footer">
-                            <h3>$ 42.00/<span>Monthly</span></h3>
-                            <a href="https://portal.codenode.gg/index.php?rp=/store/minecraft-servers/mega-tier" class="btn btn-primary">Add to cart</a>
+                            <h3>$ 6.75/<span>Monthly</span></h3>
+                            <a href="https://portal.codenode.gg/index.php?rp=/store/mc-hosting-r/premium-3gb" class="btn btn-primary">Add to cart</a>
                         </div>
                     </div>
                 </div>
