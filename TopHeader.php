@@ -107,9 +107,11 @@
                             Home</a>
                     </li>
                     <li><a class="menu-item" href="minecraft">
-                    Minecraft</a></li>
+                    Minecraft hosting</a></li>
                     <li><a class="menu-item" href="palworld">
-                    Palworld</a></li>
+                    VPS Hosting</a></li>
+                    <li><a class="menu-item" href="palworld">
+                    Dedicated Hosting</a></li>
                     <li><a class="menu-item" href="about">
                     About Us</a></li>
                     <li><a class="menu-item" href="partners">

@@ -224,7 +224,7 @@
           <div class="card card-transition h-100">
             <div class="card-body">
 
-              <span class="card-subtitle">President Of Operations</span>
+              <span class="card-subtitle">Former CTO</span>
               <h4 class="card-title">Andrés Caraballo</h4>
               <p class="card-text">I am an ambitious workaholic, but apart from that, pretty simple person.</p>
             </div>
@@ -236,7 +236,7 @@
                   <a class="btn btn-outline-primary btn-xs btn-icon rounded" target="_blank" href="mailto:Andres@codenode.gg">
                     <i data-lucide="mail"></i>
                   </a>
-                </li>
+                </li> 
               </ul>
               <!-- End Socials -->
             </div>
@@ -250,7 +250,7 @@
           <div class="card card-transition h-100">
             <div class="card-body">
 
-              <span class="card-subtitle">Vice President Of Operations</span>
+              <span class="card-subtitle">COO</span>
               <h4 class="card-title">Matei Alexa</h4>
               <p class="card-text">I am an ambitious workaholic, but apart from that, pretty simple person.</p>
             </div>
@@ -301,6 +301,54 @@
           <!-- End Card -->
         </div>
         <!-- End Col -->
+        <div class="col-sm-6 col-lg-3 mb-3">
+          <!-- Card -->
+          <div class="card card-transition h-100">
+            <div class="card-body">
+
+              <span class="card-subtitle">MSSP</span>
+              <h4 class="card-title">Atsui</h4>
+              <p class="card-text">I am an ambitious workaholic, but apart from that, pretty simple person.</p>
+            </div>
+
+            <div class="card-footer pt-0">
+              <!-- Socials -->
+              <ul class="list-inline mb-0">
+                <li class="list-inline-item">
+                  <a class="btn btn-outline-primary btn-xs btn-icon rounded" target="_blank" href="mailto:">
+                    <i data-lucide="mail"></i>
+                  </a>
+                </li>
+              </ul>
+              <!-- End Socials -->
+            </div>
+          </div>
+          <!-- End Card -->
+        </div>
+        <div class="col-sm-6 col-lg-3 mb-3">
+          <!-- Card -->
+          <div class="card card-transition h-100">
+            <div class="card-body">
+
+              <span class="card-subtitle">MSSP</span>
+              <h4 class="card-title">Infracharm LLC</h4>
+              <p class="card-text">I am an ambitious workaholic, but apart from that, pretty simple person.</p>
+            </div>
+
+            <div class="card-footer pt-0">
+              <!-- Socials -->
+              <ul class="list-inline mb-0">
+                <li class="list-inline-item">
+                  <a class="btn btn-outline-primary btn-xs btn-icon rounded" target="_blank" href="mailto:">
+                    <i data-lucide="mail"></i>
+                  </a>
+                </li>
+              </ul>
+              <!-- End Socials -->
+            </div>
+          </div>
+          <!-- End Card -->
+        </div>
       </div>
       <!-- End Row -->
 

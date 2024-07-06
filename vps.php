@@ -133,7 +133,7 @@
                     <p>Get 25% off your first month with code <strong>25OFF</strong></p>
                 </div>
                 <h1>Virtual Private Servers Hosting</h1>
-                <p class="mb-2">Dedicated bare-metal servers hosted in datacenters around the globe</p>
+                <p class="mb-2">KVM-based VPS Hosting</p>
                 <div class="d-flex gap-3 justify-content-center flex-wrap">
                     <div class="d-flex gap-2">
                         <i data-lucide="circle-check" color="#7FFFD4"></i>

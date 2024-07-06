@@ -241,7 +241,7 @@
         <div class="tab-content" id="myTabContent">
         <div class="tab-pane fade show active" id="servers-tab-pane" role="tabpanel" aria-labelledby="server-tab" tabindex="0">
             <div class="row">
-                <div class="col-lg-3">
+                <div class="col-lg-3 my-3">
                     <div class="plan-item">
                         <div class="plan-item-header">
                             <h4>PREMIUM 2GB</h4>
@@ -260,7 +260,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 my-3">
                     <div class="plan-item">
                         <div class="plan-item-header">
                             <h4>PREMIUM 3GB</h4>
@@ -279,7 +279,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 my-3">
                     <div class="plan-item">
                         <div class="plan-item-header">
                             <h4>PREMIUM 4GB</h4>
@@ -293,8 +293,179 @@
                             <p><i data-lucide="shield-check"></i>DDoS Protection Included</p>
                         </div>
                         <div class="plan-item-footer">
-                            <h3>$ 6.75/<span>Monthly</span></h3>
+                            <h3>$ 9.00/<span>Monthly</span></h3>
                             <a href="https://portal.codenode.gg/index.php?rp=/store/mc-hosting-r/premium-3gb" class="btn btn-primary">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 my-3">
+                    <div class="plan-item">
+                        <div class="plan-item-header">
+                            <h4>PREMIUM 5GB</h4>
+                        </div>
+                        <div class="plan-item-body">
+                            <p><i data-lucide="cpu" width="24" height="24"></i>2 Ryzen 9 7950X Threads</p>
+                            <p><i data-lucide="memory-stick"></i>5GB DDR5 RAM</p>
+                            <p><i data-lucide="server"></i>30 gb Storage</p>
+                            <p><i data-lucide="database"></i>2x MySQL Database</p>
+                            <p><i data-lucide="folder-sync"></i>2 Backup Slots with 24-hour coverage</p>
+                            <p><i data-lucide="shield-check"></i>DDoS Protection Included</p>
+                        </div>
+                        <div class="plan-item-footer">
+                            <h3>$ 11.25/<span>Monthly</span></h3>
+                            <a href="https://portal.codenode.gg/index.php?rp=/store/mc-hosting-r/premium-5gb" class="btn btn-primary">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 my-3">
+                    <div class="plan-item">
+                        <div class="plan-item-header">
+                            <h4>PREMIUM 6GB</h4>
+                        </div>
+                        <div class="plan-item-body">
+                            <p><i data-lucide="cpu" width="24" height="24"></i>2 Ryzen 9 7950X Threads</p>
+                            <p><i data-lucide="memory-stick"></i>6GB DDR5 RAM</p>
+                            <p><i data-lucide="server"></i>30 gb Storage</p>
+                            <p><i data-lucide="database"></i>2x MySQL Database</p>
+                            <p><i data-lucide="folder-sync"></i>2 Backup Slots with 24-hour coverage</p>
+                            <p><i data-lucide="shield-check"></i>DDoS Protection Included</p>
+                        </div>
+                        <div class="plan-item-footer">
+                            <h3>$ 13.50/<span>Monthly</span></h3>
+                            <a href="https://portal.codenode.gg/index.php?rp=/store/mc-hosting-r/premium-5gb" class="btn btn-primary">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 my-3">
+                    <div class="plan-item">
+                        <div class="plan-item-header">
+                            <h4>PREMIUM 8GB</h4>
+                        </div>
+                        <div class="plan-item-body">
+                            <p><i data-lucide="cpu" width="24" height="24"></i>2 Ryzen 9 7950X Threads</p>
+                            <p><i data-lucide="memory-stick"></i>8GB DDR5 RAM</p>
+                            <p><i data-lucide="server"></i>30 gb Storage</p>
+                            <p><i data-lucide="database"></i>2x MySQL Database</p>
+                            <p><i data-lucide="folder-sync"></i>2 Backup Slots with 24-hour coverage</p>
+                            <p><i data-lucide="shield-check"></i>DDoS Protection Included</p>
+                        </div>
+                        <div class="plan-item-footer">
+                            <h3>$ 18.00/<span>Monthly</span></h3>
+                            <a href="https://portal.codenode.gg/index.php?rp=/store/mc-hosting-r/premium-5gb" class="btn btn-primary">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 my-3">
+                    <div class="plan-item">
+                        <div class="plan-item-header">
+                            <h4>PREMIUM 10GB</h4>
+                        </div>
+                        <div class="plan-item-body">
+                            <p><i data-lucide="cpu" width="24" height="24"></i>2 Ryzen 9 7950X Threads</p>
+                            <p><i data-lucide="memory-stick"></i>10GB DDR5 RAM</p>
+                            <p><i data-lucide="server"></i>30 gb Storage</p>
+                            <p><i data-lucide="database"></i>2x MySQL Database</p>
+                            <p><i data-lucide="folder-sync"></i>2 Backup Slots with 24-hour coverage</p>
+                            <p><i data-lucide="shield-check"></i>DDoS Protection Included</p>
+                        </div>
+                        <div class="plan-item-footer">
+                            <h3>$ 22.50/<span>Monthly</span></h3>
+                            <a href="https://portal.codenode.gg/index.php?rp=/store/mc-hosting-r/premium-5gb" class="btn btn-primary">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 my-3">
+                    <div class="plan-item">
+                        <div class="plan-item-header">
+                            <h4>PREMIUM 12GB</h4>
+                        </div>
+                        <div class="plan-item-body">
+                            <p><i data-lucide="cpu" width="24" height="24"></i>2 Ryzen 9 7950X Threads</p>
+                            <p><i data-lucide="memory-stick"></i>12GB DDR5 RAM</p>
+                            <p><i data-lucide="server"></i>30 gb Storage</p>
+                            <p><i data-lucide="database"></i>2x MySQL Database</p>
+                            <p><i data-lucide="folder-sync"></i>2 Backup Slots with 24-hour coverage</p>
+                            <p><i data-lucide="shield-check"></i>DDoS Protection Included</p>
+                        </div>
+                        <div class="plan-item-footer">
+                            <h3>$ 27.00/<span>Monthly</span></h3>
+                            <a href="https://portal.codenode.gg/index.php?rp=/store/mc-hosting-r/premium-5gb" class="btn btn-primary">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 my-3">
+                    <div class="plan-item">
+                        <div class="plan-item-header">
+                            <h4>PREMIUM 14GB</h4>
+                        </div>
+                        <div class="plan-item-body">
+                            <p><i data-lucide="cpu" width="24" height="24"></i>2 Ryzen 9 7950X Threads</p>
+                            <p><i data-lucide="memory-stick"></i>14GB DDR5 RAM</p>
+                            <p><i data-lucide="server"></i>30 gb Storage</p>
+                            <p><i data-lucide="database"></i>2x MySQL Database</p>
+                            <p><i data-lucide="folder-sync"></i>2 Backup Slots with 24-hour coverage</p>
+                            <p><i data-lucide="shield-check"></i>DDoS Protection Included</p>
+                        </div>
+                        <div class="plan-item-footer">
+                            <h3>$ 31.50/<span>Monthly</span></h3>
+                            <a href="https://portal.codenode.gg/index.php?rp=/store/mc-hosting-r/premium-5gb" class="btn btn-primary">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 my-3">
+                    <div class="plan-item">
+                        <div class="plan-item-header">
+                            <h4>PREMIUM 16GB</h4>
+                        </div>
+                        <div class="plan-item-body">
+                            <p><i data-lucide="cpu" width="24" height="24"></i>2 Ryzen 9 7950X Threads</p>
+                            <p><i data-lucide="memory-stick"></i>16GB DDR5 RAM</p>
+                            <p><i data-lucide="server"></i>30 gb Storage</p>
+                            <p><i data-lucide="database"></i>2x MySQL Database</p>
+                            <p><i data-lucide="folder-sync"></i>2 Backup Slots with 24-hour coverage</p>
+                            <p><i data-lucide="shield-check"></i>DDoS Protection Included</p>
+                        </div>
+                        <div class="plan-item-footer">
+                            <h3>$ 36.00/<span>Monthly</span></h3>
+                            <a href="https://portal.codenode.gg/index.php?rp=/store/mc-hosting-r/premium-5gb" class="btn btn-primary">Add to cart</a>
+                        </div>
+                    </div>
+                </div>  
+                <div class="col-lg-3 my-3">
+                    <div class="plan-item">
+                        <div class="plan-item-header">
+                            <h4>PREMIUM 18GB</h4>
+                        </div>
+                        <div class="plan-item-body">
+                            <p><i data-lucide="cpu" width="24" height="24"></i>2 Ryzen 9 7950X Threads</p>
+                            <p><i data-lucide="memory-stick"></i>18GB DDR5 RAM</p>
+                            <p><i data-lucide="server"></i>30 gb Storage</p>
+                            <p><i data-lucide="database"></i>2x MySQL Database</p>
+                            <p><i data-lucide="folder-sync"></i>2 Backup Slots with 24-hour coverage</p>
+                            <p><i data-lucide="shield-check"></i>DDoS Protection Included</p>
+                        </div>
+                        <div class="plan-item-footer">
+                            <h3>$ 40.50/<span>Monthly</span></h3>
+                            <a href="https://portal.codenode.gg/index.php?rp=/store/mc-hosting-r/premium-5gb" class="btn btn-primary">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 my-3">
+                    <div class="plan-item">
+                        <div class="plan-item-header">
+                            <h4>PREMIUM 20GB</h4>
+                        </div>
+                        <div class="plan-item-body">
+                            <p><i data-lucide="cpu" width="24" height="24"></i>2 Ryzen 9 7950X Threads</p>
+                            <p><i data-lucide="memory-stick"></i>20GB DDR5 RAM</p>
+                            <p><i data-lucide="server"></i>30 gb Storage</p>
+                            <p><i data-lucide="database"></i>2x MySQL Database</p>
+                            <p><i data-lucide="folder-sync"></i>2 Backup Slots with 24-hour coverage</p>
+                            <p><i data-lucide="shield-check"></i>DDoS Protection Included</p>
+                        </div>
+                        <div class="plan-item-footer">
+                            <h3>$ 45.00/<span>Monthly</span></h3>
+                            <a href="https://portal.codenode.gg/index.php?rp=/store/mc-hosting-r/premium-5gb" class="btn btn-primary">Add to cart</a>
                         </div>
                     </div>
                 </div>
@@ -303,83 +474,235 @@
         </div>
         <div class="tab-pane fade" id="bundle-tab-pane" role="tabpanel" aria-labelledby="bundle-tab" tabindex="0">
         <div class="row">
-                <div class="col-lg-4">
+                <div class="col-lg-3 my-3">
                     <div class="plan-item">
                         <div class="plan-item-header">
-                            <h4>MINI BUNDLE</h4>
-                            <p>Great for running two different game modes to play with your close ones</p>
+                            <h4>PREMIUM 2GB</h4>
                         </div>
                         <div class="plan-item-body">
-                            <p><i data-lucide="server"></i>2x Friends & Family Servers</p>
-                            <p><i data-lucide="router"></i>1x Waterfall or Velocity Proxy*</p>
-                            <p><i data-lucide="network"></i>Includes Dedicated IP</p>
+                            <p><i data-lucide="cpu" width="24" height="24"></i>2 Ryzen 9 7950X Threads</p>
+                            <p><i data-lucide="memory-stick"></i>2GB DDR5 RAM</p>
+                            <p><i data-lucide="server"></i>30 gb Storage</p>
+                            <p><i data-lucide="database"></i>2x MySQL Database</p>
+                            <p><i data-lucide="folder-sync"></i>2 Backup Slots with 24-hour coverage</p>
+                            <p><i data-lucide="shield-check"></i>DDoS Protection Included</p>
                         </div>
                         <div class="plan-item-footer">
-                            <h3>$ 14.00/<span>Monthly</span></h3>
-                            <a href="https://portal.codenode.gg/cart.php?a=add&bid=1" class="btn btn-primary">Add to cart</a>
+                            <h3>$ 4.50/<span>Monthly</span></h3>
+                            <a href="https://portal.codenode.gg/index.php?rp=/store/mc-hosting-r/premium-2gb" class="btn btn-primary">Add to cart</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-3 my-3">
                     <div class="plan-item">
                         <div class="plan-item-header">
-                            <h4>BIG BUNDLE</h4>
-                            <p>Ideal if you need a Hub server before joining the Main server</p>
+                            <h4>PREMIUM 3GB</h4>
                         </div>
                         <div class="plan-item-body">
-                            <p><i data-lucide="server"></i>1x Mid Tier Server</p>
-                            <p><i data-lucide="server"></i>1x Big Tier Server</p>
-                            <p><i data-lucide="router"></i>1x Waterfall or Velocity Proxy*</p>
-                            <p><i data-lucide="network"></i>Includes Dedicated IP</p>
+                            <p><i data-lucide="cpu" width="24" height="24"></i>2 Ryzen 9 7950X Threads</p>
+                            <p><i data-lucide="memory-stick"></i>3GB DDR5 RAM</p>
+                            <p><i data-lucide="server"></i>30 gb Storage</p>
+                            <p><i data-lucide="database"></i>2x MySQL Database</p>
+                            <p><i data-lucide="folder-sync"></i>2 Backup Slots with 24-hour coverage</p>
+                            <p><i data-lucide="shield-check"></i>DDoS Protection Included</p>
                         </div>
                         <div class="plan-item-footer">
-                            <h3>$ 43.50/<span>Monthly</span></h3>
-                            <a href="https://portal.codenode.gg/cart.php?a=add&bid=4" class="btn btn-primary">Add to cart</a>
+                            <h3>$ 6.75/<span>Monthly</span></h3>
+                            <a href="https://portal.codenode.gg/index.php?rp=/store/mc-hosting-r/premium-3gb" class="btn btn-primary">Add to cart</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-3 my-3">
                     <div class="plan-item">
                         <div class="plan-item-header">
-                            <h4>NETWORK BUNDLE</h4>
-                            <p>Designed for medium or big communities with plugin-rich experiences in mind</p>
+                            <h4>PREMIUM 4GB</h4>
                         </div>
                         <div class="plan-item-body">
-                            <p><i data-lucide="server"></i>2x Mid Tier Server Server</p>
-                            <p><i data-lucide="server"></i>2x Big Tier Server Server</p>
-                            <p><i data-lucide="router"></i>1x Waterfall or Velocity Proxy*</p>
-                            <p><i data-lucide="network"></i>Includes Dedicated IP</p>
+                            <p><i data-lucide="cpu" width="24" height="24"></i>2 Ryzen 9 7950X Threads</p>
+                            <p><i data-lucide="memory-stick"></i>4GB DDR5 RAM</p>
+                            <p><i data-lucide="server"></i>30 gb Storage</p>
+                            <p><i data-lucide="database"></i>2x MySQL Database</p>
+                            <p><i data-lucide="folder-sync"></i>2 Backup Slots with 24-hour coverage</p>
+                            <p><i data-lucide="shield-check"></i>DDoS Protection Included</p>
                         </div>
                         <div class="plan-item-footer">
-                            <h3>$ 88.00/<span>Monthly</span></h3>
-                            <a href="https://portal.codenode.gg/cart.php?a=add&bid=3" class="btn btn-primary">Add to cart</a>
+                            <h3>$ 9.00/<span>Monthly</span></h3>
+                            <a href="https://portal.codenode.gg/index.php?rp=/store/mc-hosting-r/premium-3gb" class="btn btn-primary">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 my-3">
+                    <div class="plan-item">
+                        <div class="plan-item-header">
+                            <h4>PREMIUM 5GB</h4>
+                        </div>
+                        <div class="plan-item-body">
+                            <p><i data-lucide="cpu" width="24" height="24"></i>2 Ryzen 9 7950X Threads</p>
+                            <p><i data-lucide="memory-stick"></i>5GB DDR5 RAM</p>
+                            <p><i data-lucide="server"></i>30 gb Storage</p>
+                            <p><i data-lucide="database"></i>2x MySQL Database</p>
+                            <p><i data-lucide="folder-sync"></i>2 Backup Slots with 24-hour coverage</p>
+                            <p><i data-lucide="shield-check"></i>DDoS Protection Included</p>
+                        </div>
+                        <div class="plan-item-footer">
+                            <h3>$ 11.25/<span>Monthly</span></h3>
+                            <a href="https://portal.codenode.gg/index.php?rp=/store/mc-hosting-r/premium-5gb" class="btn btn-primary">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 my-3">
+                    <div class="plan-item">
+                        <div class="plan-item-header">
+                            <h4>PREMIUM 6GB</h4>
+                        </div>
+                        <div class="plan-item-body">
+                            <p><i data-lucide="cpu" width="24" height="24"></i>2 Ryzen 9 7950X Threads</p>
+                            <p><i data-lucide="memory-stick"></i>6GB DDR5 RAM</p>
+                            <p><i data-lucide="server"></i>30 gb Storage</p>
+                            <p><i data-lucide="database"></i>2x MySQL Database</p>
+                            <p><i data-lucide="folder-sync"></i>2 Backup Slots with 24-hour coverage</p>
+                            <p><i data-lucide="shield-check"></i>DDoS Protection Included</p>
+                        </div>
+                        <div class="plan-item-footer">
+                            <h3>$ 13.50/<span>Monthly</span></h3>
+                            <a href="https://portal.codenode.gg/index.php?rp=/store/mc-hosting-r/premium-5gb" class="btn btn-primary">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 my-3">
+                    <div class="plan-item">
+                        <div class="plan-item-header">
+                            <h4>PREMIUM 8GB</h4>
+                        </div>
+                        <div class="plan-item-body">
+                            <p><i data-lucide="cpu" width="24" height="24"></i>2 Ryzen 9 7950X Threads</p>
+                            <p><i data-lucide="memory-stick"></i>8GB DDR5 RAM</p>
+                            <p><i data-lucide="server"></i>30 gb Storage</p>
+                            <p><i data-lucide="database"></i>2x MySQL Database</p>
+                            <p><i data-lucide="folder-sync"></i>2 Backup Slots with 24-hour coverage</p>
+                            <p><i data-lucide="shield-check"></i>DDoS Protection Included</p>
+                        </div>
+                        <div class="plan-item-footer">
+                            <h3>$ 18.00/<span>Monthly</span></h3>
+                            <a href="https://portal.codenode.gg/index.php?rp=/store/mc-hosting-r/premium-5gb" class="btn btn-primary">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 my-3">
+                    <div class="plan-item">
+                        <div class="plan-item-header">
+                            <h4>PREMIUM 10GB</h4>
+                        </div>
+                        <div class="plan-item-body">
+                            <p><i data-lucide="cpu" width="24" height="24"></i>2 Ryzen 9 7950X Threads</p>
+                            <p><i data-lucide="memory-stick"></i>10GB DDR5 RAM</p>
+                            <p><i data-lucide="server"></i>30 gb Storage</p>
+                            <p><i data-lucide="database"></i>2x MySQL Database</p>
+                            <p><i data-lucide="folder-sync"></i>2 Backup Slots with 24-hour coverage</p>
+                            <p><i data-lucide="shield-check"></i>DDoS Protection Included</p>
+                        </div>
+                        <div class="plan-item-footer">
+                            <h3>$ 22.50/<span>Monthly</span></h3>
+                            <a href="https://portal.codenode.gg/index.php?rp=/store/mc-hosting-r/premium-5gb" class="btn btn-primary">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 my-3">
+                    <div class="plan-item">
+                        <div class="plan-item-header">
+                            <h4>PREMIUM 12GB</h4>
+                        </div>
+                        <div class="plan-item-body">
+                            <p><i data-lucide="cpu" width="24" height="24"></i>2 Ryzen 9 7950X Threads</p>
+                            <p><i data-lucide="memory-stick"></i>12GB DDR5 RAM</p>
+                            <p><i data-lucide="server"></i>30 gb Storage</p>
+                            <p><i data-lucide="database"></i>2x MySQL Database</p>
+                            <p><i data-lucide="folder-sync"></i>2 Backup Slots with 24-hour coverage</p>
+                            <p><i data-lucide="shield-check"></i>DDoS Protection Included</p>
+                        </div>
+                        <div class="plan-item-footer">
+                            <h3>$ 27.00/<span>Monthly</span></h3>
+                            <a href="https://portal.codenode.gg/index.php?rp=/store/mc-hosting-r/premium-5gb" class="btn btn-primary">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 my-3">
+                    <div class="plan-item">
+                        <div class="plan-item-header">
+                            <h4>PREMIUM 14GB</h4>
+                        </div>
+                        <div class="plan-item-body">
+                            <p><i data-lucide="cpu" width="24" height="24"></i>2 Ryzen 9 7950X Threads</p>
+                            <p><i data-lucide="memory-stick"></i>14GB DDR5 RAM</p>
+                            <p><i data-lucide="server"></i>30 gb Storage</p>
+                            <p><i data-lucide="database"></i>2x MySQL Database</p>
+                            <p><i data-lucide="folder-sync"></i>2 Backup Slots with 24-hour coverage</p>
+                            <p><i data-lucide="shield-check"></i>DDoS Protection Included</p>
+                        </div>
+                        <div class="plan-item-footer">
+                            <h3>$ 31.50/<span>Monthly</span></h3>
+                            <a href="https://portal.codenode.gg/index.php?rp=/store/mc-hosting-r/premium-5gb" class="btn btn-primary">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 my-3">
+                    <div class="plan-item">
+                        <div class="plan-item-header">
+                            <h4>PREMIUM 16GB</h4>
+                        </div>
+                        <div class="plan-item-body">
+                            <p><i data-lucide="cpu" width="24" height="24"></i>2 Ryzen 9 7950X Threads</p>
+                            <p><i data-lucide="memory-stick"></i>16GB DDR5 RAM</p>
+                            <p><i data-lucide="server"></i>30 gb Storage</p>
+                            <p><i data-lucide="database"></i>2x MySQL Database</p>
+                            <p><i data-lucide="folder-sync"></i>2 Backup Slots with 24-hour coverage</p>
+                            <p><i data-lucide="shield-check"></i>DDoS Protection Included</p>
+                        </div>
+                        <div class="plan-item-footer">
+                            <h3>$ 36.00/<span>Monthly</span></h3>
+                            <a href="https://portal.codenode.gg/index.php?rp=/store/mc-hosting-r/premium-5gb" class="btn btn-primary">Add to cart</a>
+                        </div>
+                    </div>
+                </div>  
+                <div class="col-lg-3 my-3">
+                    <div class="plan-item">
+                        <div class="plan-item-header">
+                            <h4>PREMIUM 18GB</h4>
+                        </div>
+                        <div class="plan-item-body">
+                            <p><i data-lucide="cpu" width="24" height="24"></i>2 Ryzen 9 7950X Threads</p>
+                            <p><i data-lucide="memory-stick"></i>18GB DDR5 RAM</p>
+                            <p><i data-lucide="server"></i>30 gb Storage</p>
+                            <p><i data-lucide="database"></i>2x MySQL Database</p>
+                            <p><i data-lucide="folder-sync"></i>2 Backup Slots with 24-hour coverage</p>
+                            <p><i data-lucide="shield-check"></i>DDoS Protection Included</p>
+                        </div>
+                        <div class="plan-item-footer">
+                            <h3>$ 40.50/<span>Monthly</span></h3>
+                            <a href="https://portal.codenode.gg/index.php?rp=/store/mc-hosting-r/premium-5gb" class="btn btn-primary">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 my-3">
+                    <div class="plan-item">
+                        <div class="plan-item-header">
+                            <h4>PREMIUM 20GB</h4>
+                        </div>
+                        <div class="plan-item-body">
+                            <p><i data-lucide="cpu" width="24" height="24"></i>2 Ryzen 9 7950X Threads</p>
+                            <p><i data-lucide="memory-stick"></i>20GB DDR5 RAM</p>
+                            <p><i data-lucide="server"></i>30 gb Storage</p>
+                            <p><i data-lucide="database"></i>2x MySQL Database</p>
+                            <p><i data-lucide="folder-sync"></i>2 Backup Slots with 24-hour coverage</p>
+                            <p><i data-lucide="shield-check"></i>DDoS Protection Included</p>
+                        </div>
+                        <div class="plan-item-footer">
+                            <h3>$ 45.00/<span>Monthly</span></h3>
+                            <a href="https://portal.codenode.gg/index.php?rp=/store/mc-hosting-r/premium-5gb" class="btn btn-primary">Add to cart</a>
                         </div>
                     </div>
                 </div>
             </div>
-            <p class="text-center text-light mt-2">Don't know what Guaranteed Players and Plugins mean? Check <a href="https://codenode-helpdesk.crisp.help/en/article/what-are-guaranteed-players-and-plugins-rmhpoo/" target="_blank">this article</a> out.</p>
-            <span class="span-notes">* Proxy Setup is included. Open a support ticket and CodeNode staff will link the two servers with a simple /server command, completely free of charge.</span>
-        </div>
-        <div class="tab-pane fade" id="dedicated-tab-pane" role="tabpanel" aria-labelledby="dedicated-tab" tabindex="0">
-            <div class="col-lg-6 mx-auto">
-                        <div class="plan-item">
-                            <div class="plan-item-header">
-                                <h4>Village</h4>
-                                <p>Optimized for running a network with many game modes <br> Create up to 8 servers with your own dedicated resources.</p>
-                            </div>
-                            <div class="plan-item-body">
-                                <p><i data-lucide="cpu"></i>4 Cores @ 4.0+ GHz</p>
-                                <p><i data-lucide="memory-stick"></i>60 GB DDR4 @ 2666 MHz</p>
-                                <p><i data-lucide="database"></i>500GB SSD Storage</p>
-                                <p><i data-lucide="network"></i>8 Dedicated IP</p>
-                            </div>
-                            <div class="plan-item-footer">
-                                <h3>$ 143.99/<span>Monthly</span></h3>
-                                <a href="https://portal.codenode.gg/index.php?rp=/store/dedicated-node-hosting/villager-node" class="btn btn-primary">Add to cart</a>
-                            </div>
-                        </div>
-                    </div>
-        </div>
         </div>
 </section>
 <hr class="featurette-divider container">

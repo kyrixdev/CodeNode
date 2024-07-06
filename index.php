@@ -61,19 +61,34 @@ include 'TopHeader.php';
                     <p>Starting at 4.99$</p>
                 </div>
             </a>
-            <a href="/palworld" class="service">
+            <a href="/vps" class="service">
                 <div class="service-img">
                     <picture>
-                        <source srcset="./assets/palword.webp" type="image/webp">
-                        <img src="./assets/palword.webp" alt="Minecraft Hosting" width="100" height="100">
+                        <source srcset="./assets/vps.png" type="image/webp">
+                        <img src="./assets/vps.png" alt="Minecraft Hosting" width="100" height="100">
                     </picture>
                 </div>
                 <div class="service-icon">
-                    <img src="./assets/PAL_R02.webp" alt="PalWorld Icon" width="100" height="100">
+                    <img src="./assets/cloud-server.png" alt="PalWorld Icon" width="100" height="100">
                 </div>
                 <div class="service-content">
-                    <h4>PalWorld Hosting</h4>
-                    <p>Starting at 4.99$</p>
+                    <h4>VPS Hosting</h4>
+                    <p>Starting at 3.15$</p>
+                </div>
+            </a>
+            <a href="/dedicated" class="service">
+                <div class="service-img">
+                    <picture>
+                        <source srcset="./assets/dedicated-server-datacenter-image-different-600nw-2315680439.webp" type="image/webp">
+                        <img src="./assets/dedicated-server-datacenter-image-different-600nw-2315680439.webp" alt="Minecraft Hosting" width="100" height="100">
+                    </picture>
+                </div>
+                <div class="service-icon">
+                    <img src="./assets/server.png" alt="PalWorld Icon" width="100" height="100">
+                </div>
+                <div class="service-content">
+                    <h4>DEDICATED SERVERS</h4>
+                    <p>Starting at 165.99$</p>
                 </div>
             </a>
         </div>
