@@ -128,10 +128,10 @@
         </div>
         <div class="hero">
             <div class="container">
-                <div class="announcement">
+<!--                 <div class="announcement">
                     <span>NEW</span>
                     <p>Get 25% off your first month with code <strong>25OFF</strong></p>
-                </div>
+                </div> -->
                 <h1>Minecraft Servers Hosting</h1>
                 <p class="mb-2">Only Premium Services Here.</p>
                 <div class="d-flex gap-3 justify-content-center flex-wrap">
@@ -209,8 +209,10 @@
                 <div class="col col-md-6 col-lg-3">
                     <div class="feature">
                         <i data-lucide="earth-lock" width="64" height="64"></i>
-                        <h4>Free Dedicated IP</h4>
-                        <p>We offer a free dedicated IP with all our plans, so your players will be able to connect easily to your server.</p>
+                        <h4>Unlimited Slots</h4>
+                        <p>
+                            We offer unlimited slots on all of our servers, so you can play with all your friends in one place.
+                        </p>
                     </div>
                 </div>
                 <div class="col col-md-6 col-lg-3">

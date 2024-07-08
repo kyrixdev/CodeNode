@@ -146,9 +146,9 @@ include 'TopHeader.php';
                         <div class="feature-item">
                             <div class="feature-header">
                                 <i data-lucide="hand-coins"></i>
-                                <h4>Dedicated IP</h4>
+                                <h4>100% Server Uptime</h4>
                             </div>
-                            <p>We include a free dedicated IP with all plans, which simplifies the process for players to connect to your server. This feature is particularly beneficial for server owners who want to provide a stable and easily accessible connection for their community.</p>
+                            <p>100% uptime on all of our plans, day or night we keep your services online.</p>
                         </div>
                     </div>
                     <div class="col-lg-4">
